@@ -5063,6 +5063,36 @@
         "lng": -4.7278576,
         "source": "Mapa oficial Visit Valladolid 2026",
         "displayName": "Acera de Recoletos, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Pincho de ferias — Elige uno + bebida 4€ · Con refresco o vermú 4,50€ · Solo pincho 3,50€",
+            "votable": true,
+            "items": [
+              {
+                "id": "pincho-lecha-burguer",
+                "name": "Lecha-burguer",
+                "description": "Burguer de lechazo a baja temperatura con su demi glace."
+              },
+              {
+                "id": "pincho-cochi-burguer",
+                "name": "Cochi-burguer",
+                "description": "Burguer de cochinita pibil con cebolla morada."
+              },
+              {
+                "id": "pincho-pin-pollo",
+                "name": "Pin-pollo",
+                "description": "Pincho de pollo marinado."
+              },
+              {
+                "id": "pincho-alcacho-flor",
+                "name": "Alcacho-flor",
+                "description": "Flor de alcachofa confitada con reducción de vermú."
+              }
+            ]
+          }
+        ]
       }
     },
     {
