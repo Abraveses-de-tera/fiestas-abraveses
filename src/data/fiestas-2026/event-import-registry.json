@@ -526,8 +526,9 @@
     "1999": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "linked",
+          "localEventId": "474",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -761,16 +762,17 @@
     "2158": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 441, 817, 820."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         }
       }
     },
     "2159": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 432, 816, 819."
+          "status": "linked",
+          "localEventId": "819",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -804,8 +806,9 @@
     "2181": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 437, 819, 822."
+          "status": "linked",
+          "localEventId": "437",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -826,24 +829,29 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-10": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "linked",
+          "localEventId": "469",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-11": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "linked",
+          "localEventId": "470",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-12": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "linked",
+          "localEventId": "471",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-13": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "linked",
+          "localEventId": "472",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-09": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "linked",
+          "localEventId": "434",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -972,32 +980,32 @@
     "2198": {
       "occurrences": {
         "occ-001": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-05": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-06": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-07": {
           "status": "ignored",
           "reason": "Evento local eliminado por decisión manual; no reimportar como ficha independiente."
         },
         "day-2026-09-08": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-09": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-10": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-11": {
           "status": "ignored",
@@ -1012,24 +1020,25 @@
     "2200": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 447, 820, 823."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         }
       }
     },
     "2201": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 446, 793."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         }
       }
     },
     "2203": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 403, 822, 825."
+          "status": "linked",
+          "localEventId": "825",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -1054,8 +1063,8 @@
     "2214": {
       "occurrences": {
         "occ-001": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-05": {
           "status": "linked",
@@ -1063,8 +1072,8 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-06": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-07": {
           "status": "linked",
@@ -1077,8 +1086,8 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-09": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-10": {
           "status": "linked",
@@ -1110,12 +1119,14 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-07": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 591, 586."
+          "status": "linked",
+          "localEventId": "586",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-08": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 592, 587."
+          "status": "linked",
+          "localEventId": "587",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-09": {
           "status": "linked",
@@ -1128,12 +1139,14 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-11": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 595, 590."
+          "status": "linked",
+          "localEventId": "590",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-12": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 596, 591."
+          "status": "linked",
+          "localEventId": "591",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -1149,8 +1162,8 @@
     "2218": {
       "occurrences": {
         "occ-001": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-04": {
           "status": "linked",
@@ -1212,8 +1225,8 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-07": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-08": {
           "status": "linked",
@@ -1221,8 +1234,8 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-09": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-10": {
           "status": "linked",
@@ -1244,8 +1257,8 @@
     "2260": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         }
       }
     },
@@ -1261,16 +1274,17 @@
     "2265": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 598, 690, 813, 815."
+          "status": "linked",
+          "localEventId": "690",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
     "2309": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 554, 555, 556, 557, 558, 559, 560, 561, 562."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-04": {
           "status": "linked",
@@ -1385,8 +1399,9 @@
     "2313": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 597, 592."
+          "status": "linked",
+          "localEventId": "592",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -1417,12 +1432,12 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-08": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-09": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-10": {
           "status": "linked",
@@ -1459,8 +1474,8 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-08": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-09": {
           "status": "linked",
@@ -1473,8 +1488,9 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-11": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 588, 783, 809."
+          "status": "linked",
+          "localEventId": "783",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -1599,8 +1615,9 @@
     "2335": {
       "occurrences": {
         "day-2026-09-05": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 704, 810."
+          "status": "linked",
+          "localEventId": "810",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-06": {
           "status": "linked",
@@ -1608,12 +1625,14 @@
           "reason": "Actualizado tras resolver duplicados locales; la ocurrencia apunta al evento conservado."
         },
         "day-2026-09-07": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 566, 811, 812."
+          "status": "linked",
+          "localEventId": "566",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-12": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 622, 812, 813."
+          "status": "linked",
+          "localEventId": "813",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -1625,8 +1644,8 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-05": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 611, 612."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
         },
         "day-2026-09-07": {
           "status": "linked",
@@ -1639,17 +1658,38 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-10": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 615, 616."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
         },
         "day-2026-09-11": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 437, 808."
+          "status": "linked",
+          "localEventId": "437",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-12": {
           "status": "linked",
           "localEventId": "618",
           "reason": "Censo histórico de informes de importación."
+        },
+        "day-2026-09-05-terrace-2000": {
+          "status": "linked",
+          "localEventId": "611",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-05-club-2330": {
+          "status": "linked",
+          "localEventId": "612",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-10-terrace-2000": {
+          "status": "linked",
+          "localEventId": "615",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-10-club-2330": {
+          "status": "linked",
+          "localEventId": "616",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -1674,8 +1714,9 @@
     "2341": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 703, 804."
+          "status": "linked",
+          "localEventId": "703",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -1760,8 +1801,8 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-08": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 644, 645."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
         },
         "day-2026-09-09": {
           "status": "linked",
@@ -1774,13 +1815,33 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-11": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 427, 649, 792."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
         },
         "day-2026-09-12": {
           "status": "linked",
           "localEventId": "650",
           "reason": "Censo histórico de informes de importación."
+        },
+        "day-2026-09-08-2000": {
+          "status": "linked",
+          "localEventId": "644",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-08-2300": {
+          "status": "linked",
+          "localEventId": "645",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-11-2000": {
+          "status": "linked",
+          "localEventId": "427",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-11-2300": {
+          "status": "linked",
+          "localEventId": "649",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -1869,16 +1930,17 @@
     "2359": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Las fichas históricas de esta ocurrencia ya no existen y no se ha demostrado un sustituto."
+          "status": "linked",
+          "localEventId": "454",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
     "2361": {
       "occurrences": {
         "day-2026-09-05": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 681, 763."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
         },
         "day-2026-09-06": {
           "status": "linked",
@@ -1891,8 +1953,28 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-13": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 684, 685."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
+        },
+        "day-2026-09-05-2100": {
+          "status": "linked",
+          "localEventId": "68",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-05-2200": {
+          "status": "linked",
+          "localEventId": "681",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-13-1330": {
+          "status": "linked",
+          "localEventId": "684",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-13-2100": {
+          "status": "linked",
+          "localEventId": "685",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -1913,8 +1995,8 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-05": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 669, 670."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
         },
         "day-2026-09-06": {
           "status": "linked",
@@ -1947,13 +2029,33 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-12": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 677, 678."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
         },
         "day-2026-09-13": {
           "status": "linked",
           "localEventId": "679",
           "reason": "Censo histórico de informes de importación."
+        },
+        "day-2026-09-05-1100": {
+          "status": "linked",
+          "localEventId": "669",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-05-1900": {
+          "status": "linked",
+          "localEventId": "670",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-12-1100": {
+          "status": "linked",
+          "localEventId": "677",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-12-1900": {
+          "status": "linked",
+          "localEventId": "678",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -1994,16 +2096,18 @@
     "2367": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 687, 697."
+          "status": "linked",
+          "localEventId": "697",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
     "2368": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 690, 700."
+          "status": "linked",
+          "localEventId": "700",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2019,8 +2123,9 @@
     "2370": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 689, 769."
+          "status": "linked",
+          "localEventId": "769",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2081,8 +2186,9 @@
     "2372": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 688, 698."
+          "status": "linked",
+          "localEventId": "698",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2104,8 +2210,9 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-12": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 622, 815, 818."
+          "status": "linked",
+          "localEventId": "622",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2122,12 +2229,14 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-06": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 516, 826."
+          "status": "linked",
+          "localEventId": "516",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-07": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 432, 827."
+          "status": "linked",
+          "localEventId": "827",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-08": {
           "status": "linked",
@@ -2144,8 +2253,9 @@
           "reason": "Censo histórico de informes de importación."
         },
         "day-2026-09-10": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 415, 818, 821."
+          "status": "linked",
+          "localEventId": "821",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         },
         "day-2026-09-11": {
           "status": "linked",
@@ -2171,16 +2281,17 @@
     "2387": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 722, 731."
+          "status": "linked",
+          "localEventId": "731",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
     "2388": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 776, 777, 778, 779, 780, 781, 782, 783, 784."
+          "status": "ignored",
+          "reason": "Reconciliación manual: la ocurrencia histórica no tiene una ficha local independiente válida o la fecha ya no forma parte del programa verificado actual."
         },
         "day-2026-09-04": {
           "status": "linked",
@@ -2241,8 +2352,18 @@
     "2392": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 729, 730, 814, 816, 817."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
+        },
+        "day-2026-09-07-1700": {
+          "status": "linked",
+          "localEventId": "816",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-07-2000": {
+          "status": "linked",
+          "localEventId": "817",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2284,16 +2405,42 @@
     "2396": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 723, 733."
+          "status": "linked",
+          "localEventId": "733",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
     "2397": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 734, 735, 736, 737, 738."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
+        },
+        "day-2026-09-13-0900": {
+          "status": "linked",
+          "localEventId": "734",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-13-1100": {
+          "status": "linked",
+          "localEventId": "735",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-13-1225": {
+          "status": "linked",
+          "localEventId": "736",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-13-1400": {
+          "status": "linked",
+          "localEventId": "737",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-13-1630": {
+          "status": "linked",
+          "localEventId": "738",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2347,9 +2494,8 @@
           "reason": "Coincidencia inicial por fecha, hora, título y lugar."
         },
         "day-2026-09-08": {
-          "status": "linked",
-          "localEventId": "644",
-          "reason": "Coincidencia inicial por fecha, hora, título y lugar."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
         },
         "day-2026-09-09": {
           "status": "linked",
@@ -2362,9 +2508,8 @@
           "reason": "Coincidencia inicial por fecha, hora, título y lugar."
         },
         "day-2026-09-11": {
-          "status": "linked",
-          "localEventId": "427",
-          "reason": "Actualizado tras resolver duplicados locales; la ocurrencia apunta al evento conservado."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
         },
         "day-2026-09-12": {
           "status": "linked",
@@ -2458,12 +2603,23 @@
     "2419": {
       "occurrences": {
         "day-2026-09-12": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 774, 775."
+          "status": "ignored",
+          "reason": "Reconciliación manual: clave histórica ambigua o agregada sustituida por claves estables por sesión; no se reimporta como ocurrencia independiente."
         },
         "day-2026-09-13": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 776, 775."
+          "status": "linked",
+          "localEventId": "775",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-12-1000": {
+          "status": "linked",
+          "localEventId": "460",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
+        },
+        "day-2026-09-12-1600": {
+          "status": "linked",
+          "localEventId": "774",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2506,8 +2662,9 @@
     "2424": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 788, 789."
+          "status": "linked",
+          "localEventId": "756",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2531,8 +2688,9 @@
     "2428": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 821, 824."
+          "status": "linked",
+          "localEventId": "824",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2575,8 +2733,9 @@
     "2434": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 833, 841."
+          "status": "linked",
+          "localEventId": "554",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2592,24 +2751,27 @@
     "2436": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 834, 842."
+          "status": "linked",
+          "localEventId": "556",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
     "2437": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 835, 843."
+          "status": "linked",
+          "localEventId": "557",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
     "2438": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 836, 844."
+          "status": "linked",
+          "localEventId": "559",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },
@@ -2625,8 +2787,9 @@
     "2440": {
       "occurrences": {
         "single": {
-          "status": "pending_review",
-          "reason": "Hay varias fichas locales para la misma ocurrencia: 832, 840."
+          "status": "linked",
+          "localEventId": "840",
+          "reason": "Reconciliación manual de identidad histórica: coincidencia con la ficha local conservada, incluyendo alias ya unificados cuando aplica."
         }
       }
     },

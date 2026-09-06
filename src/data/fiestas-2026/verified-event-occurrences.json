@@ -33,6 +33,7 @@
         "performances": ["Mangomudo", "Hugo Terrorman"]
       },
       {
+        "key": "day-2026-09-05-terrace-2000",
         "date": "2026-09-05",
         "startTime": "20:00",
         "endTime": "23:00",
@@ -40,6 +41,7 @@
         "performances": ["Funkforward"]
       },
       {
+        "key": "day-2026-09-05-club-2330",
         "date": "2026-09-05",
         "startTime": "23:30",
         "endTime": null,
@@ -61,6 +63,7 @@
         "performances": ["Noise"]
       },
       {
+        "key": "day-2026-09-10-terrace-2000",
         "date": "2026-09-10",
         "startTime": "20:00",
         "endTime": "23:00",
@@ -68,6 +71,7 @@
         "performances": ["Dan Williams", "César Valenti", "Escribano"]
       },
       {
+        "key": "day-2026-09-10-club-2330",
         "date": "2026-09-10",
         "startTime": "23:30",
         "endTime": null,
@@ -254,6 +258,7 @@
         "performances": ["Xems Mulas"]
       },
       {
+        "key": "day-2026-09-08-2000",
         "date": "2026-09-08",
         "startTime": "20:00",
         "endTime": null,
@@ -261,6 +266,7 @@
         "performances": ["Craps"]
       },
       {
+        "key": "day-2026-09-08-2300",
         "date": "2026-09-08",
         "startTime": "23:00",
         "endTime": null,
@@ -278,6 +284,7 @@
         "performances": ["La Deve Chacho", "Xfranru"]
       },
       {
+        "key": "day-2026-09-11-2000",
         "date": "2026-09-11",
         "startTime": "20:00",
         "endTime": null,
@@ -285,6 +292,7 @@
         "performances": ["Paco DVT"]
       },
       {
+        "key": "day-2026-09-11-2300",
         "date": "2026-09-11",
         "startTime": "23:00",
         "endTime": null,
@@ -631,12 +639,14 @@
         "location": "Cafetería Papillón (sala de convenciones) Av. Miguel Ángel Blanco, 3"
       },
       {
+        "key": "day-2026-09-05-1100",
         "date": "2026-09-05",
         "startTime": "11:00",
         "endTime": "14:00",
         "location": "Cafetería Papillón (sala de convenciones) Av. Miguel Ángel Blanco, 3"
       },
       {
+        "key": "day-2026-09-05-1900",
         "date": "2026-09-05",
         "startTime": "19:00",
         "endTime": "22:00",
@@ -679,12 +689,14 @@
         "location": "Cafetería Papillón (sala de convenciones) Av. Miguel Ángel Blanco, 3"
       },
       {
+        "key": "day-2026-09-12-1100",
         "date": "2026-09-12",
         "startTime": "11:00",
         "endTime": "14:00",
         "location": "Cafetería Papillón (sala de convenciones) Av. Miguel Ángel Blanco, 3"
       },
       {
+        "key": "day-2026-09-12-1900",
         "date": "2026-09-12",
         "startTime": "19:00",
         "endTime": "22:00",
@@ -708,6 +720,7 @@
     ],
     "occurrences": [
       {
+        "key": "day-2026-09-05-2100",
         "date": "2026-09-05",
         "startTime": "21:00",
         "endTime": null,
@@ -715,6 +728,7 @@
         "performances": ["Danzando en la calle", "Random de kpop"]
       },
       {
+        "key": "day-2026-09-05-2200",
         "date": "2026-09-05",
         "startTime": "22:00",
         "endTime": null,
@@ -736,6 +750,7 @@
         "performances": ["Muestra de escuelas Prodanza"]
       },
       {
+        "key": "day-2026-09-13-1330",
         "date": "2026-09-13",
         "startTime": "13:30",
         "endTime": null,
@@ -743,6 +758,7 @@
         "performances": ["Día de la Casa Melilla"]
       },
       {
+        "key": "day-2026-09-13-2100",
         "date": "2026-09-13",
         "startTime": "21:00",
         "endTime": null,
@@ -1047,6 +1063,7 @@
     "dates": ["2026-09-07"],
     "occurrences": [
       {
+        "key": "day-2026-09-07-1700",
         "date": "2026-09-07",
         "startTime": "17:00",
         "endTime": "20:00",
@@ -1054,6 +1071,7 @@
         "performances": ["Xangai", "Pani", "Furones"]
       },
       {
+        "key": "day-2026-09-07-2000",
         "date": "2026-09-07",
         "startTime": "20:00",
         "endTime": "23:00",
@@ -1130,6 +1148,7 @@
     "dates": ["2026-09-13"],
     "occurrences": [
       {
+        "key": "day-2026-09-13-0900",
         "date": "2026-09-13",
         "startTime": "09:00",
         "endTime": "10:00",
@@ -1137,6 +1156,7 @@
         "performances": ["Entrega de acreditaciones y café para los inscritos"]
       },
       {
+        "key": "day-2026-09-13-1100",
         "date": "2026-09-13",
         "startTime": "11:00",
         "endTime": "11:30",
@@ -1144,6 +1164,7 @@
         "performances": ["Minuto de silencio en memoria de Iván y su familia"]
       },
       {
+        "key": "day-2026-09-13-1225",
         "date": "2026-09-13",
         "startTime": "12:25",
         "endTime": "14:00",
@@ -1151,6 +1172,7 @@
         "performances": ["Visita guiada a la bodega"]
       },
       {
+        "key": "day-2026-09-13-1400",
         "date": "2026-09-13",
         "startTime": "14:00",
         "endTime": "15:20",
@@ -1158,6 +1180,7 @@
         "performances": ["Cata de vinos y aperitivo"]
       },
       {
+        "key": "day-2026-09-13-1630",
         "date": "2026-09-13",
         "startTime": "16:30",
         "endTime": null,
@@ -1184,12 +1207,12 @@
       {"date": "2026-09-05", "startTime": "23:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Xems Mulas"]},
       {"date": "2026-09-06", "startTime": "23:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Paul Moon"]},
       {"date": "2026-09-07", "startTime": "23:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Xems Mulas", "Xfranru"]},
-      {"date": "2026-09-08", "startTime": "20:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Craps"]},
-      {"date": "2026-09-08", "startTime": "23:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Jowi"]},
+      {"key": "day-2026-09-08-2000", "date": "2026-09-08", "startTime": "20:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Craps"]},
+      {"key": "day-2026-09-08-2300", "date": "2026-09-08", "startTime": "23:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Jowi"]},
       {"date": "2026-09-09", "startTime": "23:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Jowi"]},
       {"date": "2026-09-10", "startTime": "23:00", "endTime": null, "location": "Vándalo Bar", "performances": ["La Deve Chacho", "Xfranru"]},
-      {"date": "2026-09-11", "startTime": "20:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Paco DVT"]},
-      {"date": "2026-09-11", "startTime": "23:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Jowi"]},
+      {"key": "day-2026-09-11-2000", "date": "2026-09-11", "startTime": "20:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Paco DVT"]},
+      {"key": "day-2026-09-11-2300", "date": "2026-09-11", "startTime": "23:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Jowi"]},
       {"date": "2026-09-12", "startTime": "23:00", "endTime": null, "location": "Vándalo Bar", "performances": ["Xems Mulas"]}
     ],
     "source": "Cartel remoto de Vándalo en Fiestas descargado e inspeccionado visualmente: actividad los días 4, 5, 6, 7, 8, 9, 10, 11 y 12 de septiembre; los días 8 y 11 tienen sesiones de terraza a las 20:00 y sesiones nocturnas a las 23:00, y el resto comienza a las 23:00."
@@ -1242,6 +1265,7 @@
     "dates": ["2026-09-12", "2026-09-13"],
     "occurrences": [
       {
+        "key": "day-2026-09-12-1000",
         "date": "2026-09-12",
         "startTime": "10:00",
         "endTime": "14:00",
@@ -1249,6 +1273,7 @@
         "performances": []
       },
       {
+        "key": "day-2026-09-12-1600",
         "date": "2026-09-12",
         "startTime": "16:00",
         "endTime": "20:00",
