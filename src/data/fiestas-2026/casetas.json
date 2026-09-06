@@ -5520,6 +5520,24 @@
       "details": {
         "menuSections": [
           {
+            "title": "Pinchos de feria",
+            "votable": true,
+            "items": [
+              { "id": "pincho-chorizo-a-la-sidra", "name": "Chorizo a la sidra", "price": "2,9 €" },
+              { "id": "pincho-empanada-la-morcillona", "name": "Empanada \"La Morcillona\"", "description": "(Morcilla, Cebolla Caramelizada y Queso de Cabra)", "price": "2,9 €" },
+              { "id": "pincho-arroz-leche", "name": "Aroz con leche", "price": "2,9 €" }
+            ]
+          },
+          {
+            "title": "Novedades",
+            "votable": true,
+            "items": [
+              { "id": "novedad-criollin-astur", "name": "Criollín Astur", "description": "(Mini perrito de Criollo, Cebolla Crujiente con Salsa Chimichurri)", "price": "2,9 €" },
+              { "id": "novedad-bocau-solomillo-cabrales", "name": "Bocáu de solomillo al Cabrales", "description": "(Solomillo y Cabrales)", "price": "2,9 €" },
+              { "id": "novedad-frixuelo-del-norte", "name": "Frixuelo \"Del Norte\"", "description": "(Aguacate, Crema Queso de Cabra, Pimientos Asados y Salmón Ahumado)", "price": "2,9 €" }
+            ]
+          },
+          {
             "title": "Carta",
             "votable": true,
             "items": [
