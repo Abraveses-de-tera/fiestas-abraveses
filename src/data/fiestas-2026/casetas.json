@@ -3218,6 +3218,52 @@
         "lng": -4.7287721,
         "source": "Mapa oficial Visit Valladolid 2026",
         "displayName": "Acera de Recoletos, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Pincho de feria — 4,00€",
+            "votable": true,
+            "items": [
+              {
+                "id": "pincho-taco-pulled-pork",
+                "name": "Taco de pulled pork",
+                "description": "Salsa ranchera y pico de gallo"
+              },
+              {
+                "id": "pincho-bocatin-calamares-papada",
+                "name": "Bocatín de calamares",
+                "description": "Con papada ibérica y salsa brava"
+              },
+              {
+                "id": "pincho-guiso-dia",
+                "name": "Guiso del día"
+              },
+              {
+                "id": "pincho-focaccia-mortadella",
+                "name": "Focaccia de mortadella",
+                "description": "Con stracciatella y pesto"
+              },
+              {
+                "id": "pincho-mollete-solomillo",
+                "name": "Mollete de solomillo",
+                "description": "Con guacamole, cebolla crispy y mayonesa de ahumados",
+                "price": "+0,50€"
+              }
+            ]
+          },
+          {
+            "title": "Raciones",
+            "votable": true,
+            "items": [
+              { "id": "racion-torreznos-soria", "name": "Torreznos de Soria", "price": "6,50€" },
+              { "id": "racion-patatas-bravas", "name": "Patatas bravas", "price": "5,50€" },
+              { "id": "racion-calamares-alioli", "name": "Calamares con alioli", "price": "9,00€" },
+              { "id": "racion-mejillones-salsa-escocesa", "name": "Mejillones en salsa escocesa", "description": "8 ud", "price": "7,50€" },
+              { "id": "racion-morcilla-maruja-mermelada-pimientos", "name": "Morcilla de la Maruja con mermelada de pimientos", "price": "8,50€" }
+            ]
+          }
+        ]
       }
     },
     {
@@ -5813,6 +5859,104 @@
         "source": "Google Maps",
         "displayName": "Recinto Ferial Jose Luis Bellido, Valladolid, España",
         "query": "Recinto ferial José Luis Bellido, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Platos",
+            "votable": true,
+            "items": [
+              { "id": "plato-judiones-granja", "name": "Judiones de la granja", "price": "8 €" },
+              { "id": "plato-cochifrito", "name": "Cochifrito", "price": "12 €" },
+              { "id": "pincho-lechazo", "name": "Pincho de lechazo", "description": "Sin hueso", "price": "6,50 €" },
+              { "id": "plato-patatas-bravas-segoviana", "name": "Patatas bravas a la segoviana", "price": "6,50 €" },
+              { "id": "plato-chorizo-cantimpalos-vino-nieve", "name": "Chorizo Cantimpalos al vino blanco de nieve", "price": "6 €" }
+            ]
+          },
+          {
+            "title": "Croquetas de lechazo asado",
+            "votable": true,
+            "items": [
+              { "id": "racion-croquetas-lechazo-asado", "name": "Ración", "price": "10 €" },
+              { "id": "media-racion-croquetas-lechazo-asado", "name": "Media ración", "price": "6 €" }
+            ]
+          },
+          {
+            "title": "Bocadillos — 7 €",
+            "votable": true,
+            "items": [
+              { "id": "bocadillo-chorizo-cantimpalos-olla", "name": "Chorizo Cantimpalos a la olla" },
+              { "id": "bocadillo-lomo-adobado", "name": "Lomo adobado" },
+              { "id": "bocadillo-panceta-segoviana", "name": "Panceta Segoviana" }
+            ]
+          },
+          {
+            "title": "Postres",
+            "votable": true,
+            "items": [
+              { "id": "postre-segovianito", "name": "Segovianito", "price": "4,50 €" },
+              { "id": "postre-ponche-segoviano-racion", "name": "Ponche Segoviano — ración", "price": "5,50 €" },
+              { "id": "postre-ponche-segoviano-tarta-entera", "name": "Ponche Segoviano — tarta entera", "price": "30 €" }
+            ]
+          },
+          {
+            "title": "Chatos de vino — 2 €",
+            "votable": false,
+            "items": [
+              { "id": "vino-tinto-valtiendas", "name": "Tinto Valtiendas" },
+              { "id": "vino-verdejo", "name": "Verdejo" },
+              { "id": "vino-rosado-clarete", "name": "Rosado/clarete" },
+              { "id": "vino-ribera-duero-joven", "name": "Ribera del Duero joven" }
+            ]
+          },
+          {
+            "title": "Cerveza — 2,50 €",
+            "votable": false,
+            "items": [
+              { "id": "cerveza-cana", "name": "Caña" },
+              { "id": "cerveza-cana-sin-alcohol", "name": "Caña sin alcohol" },
+              { "id": "cerveza-cana-limon", "name": "Caña con limón" }
+            ]
+          },
+          {
+            "title": "Agua — 1 €",
+            "votable": false,
+            "items": [
+              { "id": "bebida-agua", "name": "Agua" }
+            ]
+          },
+          {
+            "title": "Chupitos",
+            "votable": false,
+            "items": [
+              { "id": "chupito-ginebra-larios", "name": "Ginebra Larios" },
+              { "id": "chupito-whisky-dry", "name": "Whisky Dry" },
+              { "id": "chupito-anis-castellana", "name": "Anís Castellana" }
+            ]
+          },
+          {
+            "title": "Vermut Garciani — 4 €",
+            "votable": false,
+            "items": [
+              { "id": "bebida-vermut-garciani", "name": "Vermut Garciani" }
+            ]
+          },
+          {
+            "title": "Café de puchero",
+            "votable": false,
+            "items": [
+              { "id": "cafe-puchero-gotas-orujo", "name": "Con gotas de Orujo", "price": "1,50 €" },
+              { "id": "cafe-puchero-segoviano", "name": "Segoviano", "price": "4,50 €" }
+            ]
+          },
+          {
+            "title": "Refrescos — 2 €",
+            "votable": false,
+            "items": [
+              { "id": "bebida-refrescos", "name": "Refrescos" }
+            ]
+          }
+        ]
       }
     },
     {
@@ -5833,6 +5977,49 @@
         "source": "Google Maps",
         "displayName": "Recinto Ferial Jose Luis Bellido, Valladolid, España",
         "query": "Recinto ferial José Luis Bellido, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Raciones y embutidos",
+            "votable": true,
+            "items": [
+              { "id": "racion-cecina-vacuno-leon", "name": "Cecina de vacuno de León", "price": "14 €" },
+              { "id": "racion-morcilla-leon", "name": "Morcilla de León", "price": "7 €" },
+              { "id": "racion-patatas-queso-valdeon", "name": "Patatas al queso de Valdeón", "price": "7 €" },
+              { "id": "racion-chorizo-prieto-picudo", "name": "Chorizo entrecortado al Prieto Picudo", "price": "7 €" },
+              { "id": "racion-lacon-pimientos", "name": "Lacón con pimientos", "price": "9 €" },
+              { "id": "racion-empanada-atun-picadillo", "name": "Empanada tradicional de atún / picadillo", "price": "6 €" },
+              { "id": "racion-huevos-fritos-chorizo-picadillo", "name": "Huevos fritos con patatas y chorizo / picadillo", "price": "9 €" },
+              { "id": "racion-huevos-fritos-morcilla", "name": "Huevos fritos con patatas y morcilla", "price": "9 €" },
+              { "id": "racion-alubias-baneza-oreja", "name": "Alubias de La Bañeza melgadas con oreja", "price": "6 €" },
+              { "id": "racion-garbanzos-gusto-maragato", "name": "Garbanzos al gusto maragato", "price": "6 €" },
+              { "id": "racion-pan-hogaza-leon", "name": "Ración de pan hogaza de León", "price": "1 €" }
+            ]
+          },
+          {
+            "title": "Postres",
+            "votable": true,
+            "items": [
+              { "id": "postre-natillas-zacarias-aroma", "name": "Natillas de Zacarías aroma", "price": "4 €" },
+              { "id": "postre-virutas-samelices", "name": "Virutas de Samelices", "price": "4 €" },
+              { "id": "postre-hojaldres-surtidos", "name": "Hojaldres surtidos", "price": "4 €" }
+            ]
+          },
+          {
+            "title": "Bebidas",
+            "votable": false,
+            "items": [
+              { "id": "bebida-agua-botellin-33cl", "name": "Botellín de agua 33 cl", "price": "1 €" },
+              { "id": "bebida-refresco-mosto", "name": "Refresco / mosto", "price": "2 €" },
+              { "id": "bebida-vaso-cerveza", "name": "Vaso de cerveza", "price": "2,50 €" },
+              { "id": "bebida-vermu-zacarias", "name": "Vermú Zacarías", "price": "2,50 €" },
+              { "id": "bebida-limonada-san-marcos", "name": "Limonada San Marcos", "price": "2,50 €" },
+              { "id": "bebida-vino-prieto-picudo", "name": "Vino Prieto Picudo rosado/tinto", "price": "2 €" },
+              { "id": "bebida-cafe-puchero", "name": "Café de puchero", "price": "2 €" }
+            ]
+          }
+        ]
       }
     },
     {
