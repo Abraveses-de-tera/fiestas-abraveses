@@ -2429,6 +2429,90 @@
         "query": "Plaza de Portugalete, Valladolid, Espana",
         "accuracy": 1,
         "geocodedAt": "2026-08-25T13:32:44.282Z"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Platos",
+            "votable": true,
+            "items": [
+              {
+                "id": "cachopo",
+                "name": "Cachopo",
+                "description": "de jamón, queso y tomates",
+                "price": "6€"
+              },
+              {
+                "id": "pincho-moruno",
+                "name": "Pincho moruno",
+                "description": "con salsa miel y mostaza",
+                "price": "4€"
+              }
+            ]
+          },
+          {
+            "title": "Pincho + bebida 4€",
+            "votable": true,
+            "items": [
+              {
+                "id": "tosta-cecina-leon",
+                "name": "Tosta de cecina de León",
+                "description": "con AOVE"
+              },
+              {
+                "id": "pincho-chorizo",
+                "name": "Pincho chorizo",
+                "description": "con imperdible de pimentón"
+              },
+              {
+                "id": "tosta-carne-moruna",
+                "name": "Tosta de carne moruna",
+                "description": "con salsa ranchera"
+              }
+            ]
+          },
+          {
+            "title": "Raciones 8€",
+            "votable": true,
+            "items": [
+              {
+                "id": "racion-chorizo-criollo",
+                "name": "Ración de chorizo criollo",
+                "description": "con chimichurri"
+              },
+              {
+                "id": "racion-cecina-leon",
+                "name": "Ración de cecina de León",
+                "description": "con AOVE"
+              },
+              {
+                "id": "racion-carne-moruna",
+                "name": "Ración de carne moruna"
+              }
+            ]
+          },
+          {
+            "title": "Chapata + bebida 4,50€",
+            "votable": true,
+            "items": [
+              {
+                "id": "chapata-carrilleras",
+                "name": "Chapata de carrilleras",
+                "description": "al vino tinto"
+              },
+              {
+                "id": "chapata-solomillo",
+                "name": "Chapata de solomillo",
+                "description": "con salsa Cabrales"
+              },
+              {
+                "id": "chapata-chorizo-criollo",
+                "name": "Chapata de chorizo criollo",
+                "description": "con chimichurri"
+              }
+            ]
+          }
+        ]
       }
     },
     {
