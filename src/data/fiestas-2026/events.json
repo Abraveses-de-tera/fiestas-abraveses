@@ -28205,5 +28205,83 @@
     "tags": [
       "Música"
     ]
+  },
+  {
+    "id": 916,
+    "date": "2026-09-06",
+    "dateLabel": "Domingo 6 de septiembre",
+    "startTime": "22:30",
+    "endTime": "23:30",
+    "title": "Show con Lady Veneno (Sesión Chochi Petarda)",
+    "image": "https://foro.aldeapucela.org/uploads/default/optimized/2X/4/43c572ac6bf1c08ad7a4de9b098ab07825858c50_2_701x1023.jpeg",
+    "location": "La Lupe Bar Musical",
+    "zone": "Zona Centro",
+    "description": "LaLupe Entertainment presenta el espectáculo ‘Show con Lady Veneno’, una velada de música y entretenimiento que tendrá lugar el próximo 6 de septiembre en el bar musical La Lupe de Valladolid.",
+    "summary": "LaLupe Entertainment presenta el espectáculo ‘Show con Lady Veneno’, una velada de música y entretenimiento que tendrá lugar el próximo 6 de septiembre en el bar musical La Lupe de Valladolid.",
+    "performances": [],
+    "organizers": [
+      "LaLupe Entertainment"
+    ],
+    "collaborators": [],
+    "coordinates": {
+      "lat": 41.6539194,
+      "lng": -4.7288436,
+      "source": "OpenStreetMap Nominatim",
+      "osmType": "node",
+      "osmId": 12791999528,
+      "query": "Calle de Francisco Zarandona, 10, Valladolid, España",
+      "accuracy": 1,
+      "geocodedAt": "2026-09-06T13:04:40.537Z"
+    },
+    "type": "Otros",
+    "ticket": {
+      "required": false,
+      "status": "not_required",
+      "label": "Entrada libre",
+      "url": null,
+      "note": "La fuente remota indica que la entrada es libre o gratuita."
+    },
+    "tags": [
+      "Otros"
+    ]
+  },
+  {
+    "id": 917,
+    "date": "2026-09-10",
+    "dateLabel": "Jueves 10 de septiembre",
+    "startTime": "13:30",
+    "endTime": "14:30",
+    "title": "Motociclones Electrocharanga (Concierto)",
+    "image": "https://foro.aldeapucela.org/uploads/default/optimized/2X/3/300477bdc119405b9343575ce3374af0a88fa19b_2_576x1024.jpeg",
+    "location": "Plaza de Portugalete",
+    "zone": "Zona Centro",
+    "description": "La agrupación Motociclones Electrocharanga llega a la Plaza de Portugalete para ofrecer una actuación musical en el marco de Valladolid Kalathos. El evento tendrá lugar el próximo jueves 10 de septiembre a las 13:30 horas.",
+    "summary": "La agrupación Motociclones Electrocharanga llega a la Plaza de Portugalete para ofrecer una actuación musical en el marco de Valladolid Kalathos. El evento tendrá lugar el próximo jueves 10 de septiembre a las 13:30 horas.",
+    "performances": [],
+    "organizers": [
+      "Valladolid Kalathos"
+    ],
+    "collaborators": [],
+    "coordinates": {
+      "lat": 41.6532668,
+      "lng": -4.7239288,
+      "source": "OpenStreetMap Nominatim",
+      "osmType": "way",
+      "osmId": 726522770,
+      "query": "Plaza de Portugalete, Valladolid, España",
+      "accuracy": 1,
+      "geocodedAt": "2026-09-06T13:04:40.538Z"
+    },
+    "type": "Música",
+    "ticket": {
+      "required": false,
+      "status": "not_required",
+      "label": "Entrada libre",
+      "url": null,
+      "note": "La fuente remota indica que la entrada es libre o gratuita."
+    },
+    "tags": [
+      "Música"
+    ]
   }
 ]

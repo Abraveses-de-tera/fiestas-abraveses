@@ -2515,6 +2515,21 @@
           "status": "linked",
           "localEventId": "650",
           "reason": "Coincidencia inicial por fecha, hora, título y lugar."
+        },
+        "day-2026-09-08-2000": {
+          "status": "linked",
+          "localEventId": "644",
+          "reason": "Misma fecha, hora, título y lugar normalizados."
+        },
+        "day-2026-09-08-2300": {
+          "status": "linked",
+          "localEventId": "645",
+          "reason": "Misma fecha, hora, título y lugar normalizados."
+        },
+        "day-2026-09-11-2300": {
+          "status": "linked",
+          "localEventId": "649",
+          "reason": "Misma fecha, hora, título y lugar normalizados."
         }
       }
     },
@@ -3360,6 +3375,24 @@
         "single": {
           "status": "linked",
           "localEventId": "915",
+          "reason": "Nueva ocurrencia importada con identidad registrada."
+        }
+      }
+    },
+    "2507": {
+      "occurrences": {
+        "single": {
+          "status": "linked",
+          "localEventId": "916",
+          "reason": "Nueva ocurrencia importada con identidad registrada."
+        }
+      }
+    },
+    "2508": {
+      "occurrences": {
+        "single": {
+          "status": "linked",
+          "localEventId": "917",
           "reason": "Nueva ocurrencia importada con identidad registrada."
         }
       }

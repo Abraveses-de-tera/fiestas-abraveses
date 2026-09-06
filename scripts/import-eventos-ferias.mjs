@@ -930,6 +930,7 @@ async function resolveCoordinates(remote, location, currentEvents) {
   if (knownLocation) return { ...knownLocation.coordinates };
 
   const queryById = {
+    2507: 'Calle de Francisco Zarandona, 10, Valladolid, España',
     2198: 'Calle del Bao, Valladolid, España',
     2203: 'Sala Borja, Valladolid, España',
     2191: 'Calle Espíritu Santo, 9, Valladolid, España',
