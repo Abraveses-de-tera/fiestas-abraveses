@@ -983,6 +983,45 @@
         "query": "Plaza San Benito, Valladolid, España",
         "accuracy": 0.8,
         "geocodedAt": "2026-08-26"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Pinchos de feria",
+            "votable": true,
+            "items": [
+              { "id": "pincho-hamburguesa-morcilla", "name": "Hamburguesa de Morcilla", "price": "3,00 €" },
+              { "id": "pincho-provoleta-tomate-confitado", "name": "Provoleta con Tomate Confitado", "price": "5,00 €", "dietary": "vegetarian" },
+              { "id": "pincho-patatas-piconas", "name": "Patatas Piconas", "price": "2,50 €" },
+              { "id": "pincho-patatas-curry", "name": "Patatas con Curry", "price": "3,00 €" },
+              { "id": "pincho-callos-garbanzos", "name": "Callos con Garbanzos", "price": "5,00 €" },
+              { "id": "pincho-arroz-dia", "name": "Arroz del Día", "description": "(la parte de las 13:30)", "price": "5,00 €" }
+            ]
+          },
+          {
+            "title": "Postres caseros",
+            "votable": true,
+            "items": [
+              { "id": "postre-sorbete-mojito", "name": "Sorbete de Mojito", "price": "3,00 €" },
+              { "id": "postre-helado-mango", "name": "Helado de Mango", "price": "5,00 €" },
+              { "id": "postre-chocolate", "name": "Postre de Chocolate", "price": "5,00 €" },
+              { "id": "postre-mousse-chupachups", "name": "Mousse de Chupachups", "price": "5,00 €" }
+            ]
+          },
+          {
+            "title": "Bebidas",
+            "votable": false,
+            "items": [
+              { "id": "bebida-agua-mineral", "name": "Agua Mineral", "price": "1,50 €" },
+              { "id": "bebida-refresco", "name": "Refresco", "price": "2,50 €" },
+              { "id": "bebida-vino", "name": "Vino", "description": "(Ribera / Cigales / Rueda)", "price": "2,00 €" },
+              { "id": "bebida-mosto", "name": "Mosto", "price": "1,50 €" },
+              { "id": "bebida-lorencito", "name": "Lorencito", "price": "2,00 €" },
+              { "id": "bebida-tinto-verano", "name": "Tinto de Verano", "price": "2,00 €" },
+              { "id": "bebida-cerveza", "name": "Cerveza", "price": "2,00 €" }
+            ]
+          }
+        ]
       }
     },
     {
