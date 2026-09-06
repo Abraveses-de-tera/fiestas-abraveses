@@ -38,32 +38,33 @@ test.describe('agenda', () => {
     expect(Number(heading.trim().split(' ')[0])).toBe(await page.locator(cards).count());
   });
 
-  test('muestra Todos antes del día inicial y no reordena al cambiar de día', async ({ page }) => {
-    await page.goto('/?date=2026-09-11');
+  test('coloca el día anterior inmediato junto a Todos y no reordena al cambiar de día', async ({ page }) => {
+    await page.goto('/?date=2026-09-06');
 
     const dates = page.locator('[data-fiestas-dates] [data-date]');
     const initialOrder = [
-      '2026-09-10',
-      '2026-09-09',
-      '2026-09-08',
-      '2026-09-07',
-      '2026-09-06',
-      '2026-09-05',
       '2026-09-04',
+      '2026-09-05',
       'all',
+      '2026-09-06',
+      '2026-09-07',
+      '2026-09-08',
+      '2026-09-09',
+      '2026-09-10',
       '2026-09-11',
       '2026-09-12',
       '2026-09-13'
     ];
     await expect.poll(() => dates.evaluateAll((cards) => cards.map((card) => card.dataset.date))).toEqual(initialOrder);
-    await expect(dates.nth(7)).toHaveAttribute('data-date', 'all');
-    await expect(dates.nth(8)).toHaveAttribute('data-date', '2026-09-11');
-    await expect(dates.nth(8)).toHaveClass(/is-active/);
+    await expect(dates.nth(1)).toHaveAttribute('data-date', '2026-09-05');
+    await expect(dates.nth(2)).toHaveAttribute('data-date', 'all');
+    await expect(dates.nth(3)).toHaveAttribute('data-date', '2026-09-06');
+    await expect(dates.nth(3)).toHaveClass(/is-active/);
     await expect.poll(() => dates.locator('..').evaluate((strip) => strip.scrollLeft)).toBeGreaterThan(0);
 
-    await page.locator('[data-fiestas-dates] [data-date="2026-09-12"]').click();
+    await page.locator('[data-fiestas-dates] [data-date="2026-09-07"]').click();
     await expect.poll(() => dates.evaluateAll((cards) => cards.map((card) => card.dataset.date))).toEqual(initialOrder);
-    await expect(dates.nth(9)).toHaveClass(/is-active/);
+    await expect(dates.nth(4)).toHaveClass(/is-active/);
   });
 
   test('señala las medidas de accesibilidad sin ocultarlas en la tarjeta', async ({ page }) => {
