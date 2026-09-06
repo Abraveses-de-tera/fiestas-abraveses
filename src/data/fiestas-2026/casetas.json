@@ -5322,6 +5322,75 @@
         "lng": -4.7383464,
         "source": "Mapa oficial Visit Valladolid 2026",
         "displayName": "Paseo de Zorrilla, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Pinchos feria",
+            "votable": true,
+            "items": [
+              { "id": "pincho-chopitos-calamar", "name": "Chopitos de Calamar", "description": "con alioli", "price": "6,00 €" },
+              { "id": "pincho-chopitos-pollo", "name": "Chopitos de Pollo", "description": "con guacamole", "price": "5,50 €" },
+              { "id": "pincho-jamon", "name": "Pinchos de jamón", "price": "5,00 €" },
+              { "id": "pincho-salchicha", "name": "Pinchos de salchicha", "price": "4,50 €" },
+              { "id": "pincho-tortilla", "name": "Pinchos de tortilla", "price": "4,50 €", "dietary": "vegetarian" },
+              { "id": "pincho-ensaladilla", "name": "Pinchos de ensaladilla", "price": "4,50 €" },
+              { "id": "pincho-queso", "name": "Pinchos de queso", "price": "4,50 €", "dietary": "vegetarian" },
+              { "id": "pincho-brocheta-langostino", "name": "Brochetas de langostino", "price": "6,00 €" },
+              { "id": "pincho-brocheta-pollo", "name": "Brochetas de pollo", "price": "5,00 €" },
+              { "id": "pincho-brocheta-ternera", "name": "Brochetas de ternera", "price": "6,00 €" },
+              { "id": "pincho-croquetas-jamon", "name": "Croquetas de jamón", "price": "4,50 €" },
+              { "id": "pincho-croquetas-bacalao", "name": "Croquetas de bacalao", "price": "4,50 €" }
+            ]
+          },
+          {
+            "title": "Raciones",
+            "votable": true,
+            "items": [
+              { "id": "racion-croquetas-jamon", "name": "Croquetas de jamón", "price": "4,50 €" },
+              { "id": "racion-croquetas-bacalao", "name": "Croquetas de bacalao", "price": "4,50 €" },
+              { "id": "racion-patatas-bravas", "name": "Patatas bravas", "price": "4,00 €" },
+              { "id": "racion-ensaladilla-rusa", "name": "Ensaladilla rusa", "price": "4,50 €" },
+              { "id": "racion-calamares", "name": "Calamares", "price": "7,00 €" },
+              { "id": "racion-chopitos", "name": "Chopitos", "price": "7,00 €" },
+              { "id": "racion-gambas", "name": "Gambas", "price": "8,00 €" },
+              { "id": "racion-calamares-fritos", "name": "Calamares fritos", "price": "7,00 €" }
+            ]
+          },
+          {
+            "title": "Tartas",
+            "votable": true,
+            "items": [
+              { "id": "tarta-queso", "name": "Tarta de queso", "price": "4,50 €" },
+              { "id": "tarta-chocolate", "name": "Tarta de chocolate", "price": "4,50 €" },
+              { "id": "tarta-limon", "name": "Tarta de limón", "price": "4,50 €" },
+              { "id": "tarta-manzana", "name": "Tarta de manzana", "price": "4,50 €" },
+              { "id": "tarta-fresa", "name": "Tarta de fresa", "price": "4,50 €" }
+            ]
+          },
+          {
+            "title": "Otros postres",
+            "votable": true,
+            "items": [
+              { "id": "postre-otros-tarta-queso", "name": "Tarta de queso", "price": "4,50 €" },
+              { "id": "postre-otros-tarta-chocolate", "name": "Tarta de chocolate", "price": "4,50 €" },
+              { "id": "postre-otros-tarta-limon", "name": "Tarta de limón", "price": "4,50 €" },
+              { "id": "postre-otros-tarta-manzana", "name": "Tarta de manzana", "price": "4,50 €" },
+              { "id": "postre-otros-tarta-fresa", "name": "Tarta de fresa", "price": "4,50 €" }
+            ]
+          },
+          {
+            "title": "Postres caseros",
+            "votable": true,
+            "items": [
+              { "id": "postre-casero-tarta-queso", "name": "Tarta de queso", "price": "4,50 €" },
+              { "id": "postre-casero-tarta-chocolate", "name": "Tarta de chocolate", "price": "4,50 €" },
+              { "id": "postre-casero-tarta-limon", "name": "Tarta de limón", "price": "4,50 €" },
+              { "id": "postre-casero-tarta-manzana", "name": "Tarta de manzana", "price": "4,50 €" },
+              { "id": "postre-casero-tarta-fresa", "name": "Tarta de fresa", "price": "4,50 €" }
+            ]
+          }
+        ]
       }
     },
     {
@@ -5337,6 +5406,62 @@
         "lng": -4.7383919,
         "source": "Mapa oficial Visit Valladolid 2026",
         "displayName": "Paseo de Zorrilla, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Lista de precios",
+            "votable": false,
+            "items": [
+              { "id": "bebida-cana-30cl", "name": "Caña (30cl)", "price": "2.50€" },
+              { "id": "bebida-refresco", "name": "Refresco", "price": "2.50€" },
+              { "id": "bebida-lorencito", "name": "Lorencito", "price": "2.50€" },
+              { "id": "bebida-tinto-verano", "name": "Tinto de verano", "price": "2.50€" },
+              { "id": "bebida-mosto", "name": "Mosto", "price": "2.00€" },
+              { "id": "bebida-agua", "name": "Agua", "price": "1.50€" }
+            ]
+          },
+          {
+            "title": "Vinos 2€",
+            "votable": false,
+            "items": [
+              { "id": "vino-tinto", "name": "Tinto" },
+              { "id": "vino-verdejo", "name": "Verdejo" },
+              { "id": "vino-clarete", "name": "Clarete" }
+            ]
+          },
+          {
+            "title": "Pincho de feria 4€ — Bebida + chapatina a elegir",
+            "votable": true,
+            "items": [
+              { "id": "pincho-rabas", "name": "Rabas" },
+              { "id": "pincho-chorizo", "name": "Chorizo" },
+              { "id": "pincho-panceta", "name": "Panceta", "description": "con salsa de mostaza y miel" }
+            ]
+          },
+          {
+            "title": "Otros platos",
+            "votable": true,
+            "items": [
+              { "id": "bocadillo-solomillo-roquefort", "name": "Bocadillo de solomillo ibérico", "description": "con salsa roquefort", "price": "5€" },
+              { "id": "piruleta-salchicha-queso-patata", "name": "Piruleta", "description": "(salchicha envuelta en queso y patata)", "price": "3€" },
+              { "id": "croqueta-casera-jamon", "name": "Croqueta casera de jamón", "price": "1.50€/ud" },
+              { "id": "pincho-moruno", "name": "Pincho moruno", "price": "3.50€" },
+              { "id": "patatas-tres-salsas", "name": "Patatas tres salsas", "price": "4€" }
+            ]
+          },
+          {
+            "title": "Raciones 13€",
+            "votable": true,
+            "items": [
+              { "id": "racion-rabas", "name": "Rabas" },
+              { "id": "racion-cazon-adobo", "name": "Cazón en adobo" }
+            ]
+          }
+        ],
+        "highlights": [
+          "Si tiene tipo de intolerancia alimentaria, no dudes en preguntar"
+        ]
       }
     },
     {
@@ -5352,6 +5477,37 @@
         "lng": -4.7384241,
         "source": "Mapa oficial Visit Valladolid 2026",
         "displayName": "Paseo de Zorrilla, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Carta",
+            "votable": true,
+            "items": [
+              { "id": "cachopin-topin", "name": "Cachopín Topín", "description": "(Lomo, Cebolla Caramelizada y Queso Afuega')", "price": "3.8 €" }
+            ]
+          },
+          {
+            "title": "Raciones",
+            "votable": true,
+            "items": [
+              { "id": "racion-pastel-cabracho", "name": "Pastel de cabracho", "price": "5.5 €" },
+              { "id": "racion-patatas-cabrales", "name": "Patatas al Cabrales", "price": "5.5 €" }
+            ]
+          },
+          {
+            "title": "Ofertas",
+            "votable": true,
+            "items": [
+              { "id": "oferta-cachopin-bebida", "name": "Cachopín + bebida", "price": "5.5 €" },
+              { "id": "oferta-pinchos-sidra", "name": "2 pinchos feria + botella de sidra", "price": "10.5 €" },
+              { "id": "oferta-cachopines-sidra", "name": "2 cachopines + botella de sidra", "price": "12 €" }
+            ]
+          }
+        ],
+        "highlights": [
+          "La bebida es agua, mosto, sangría de sidra, cerveza, vino y refresco"
+        ]
       }
     },
     {
@@ -5367,6 +5523,62 @@
         "lng": -4.7382552,
         "source": "Mapa oficial Visit Valladolid 2026",
         "displayName": "Paseo de Zorrilla, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Raciones",
+            "votable": true,
+            "items": [
+              { "id": "racion-calamares", "name": "Calamares", "price": "10€" },
+              { "id": "racion-nachos", "name": "Nachos", "description": "con queso, carnita y guacamole", "price": "10€" },
+              { "id": "racion-morcilla-maruja", "name": "Morcilla de la Maruja", "description": "con miel y nueces", "price": "10€" },
+              { "id": "racion-torrezno", "name": "Torrezno", "price": "7€" },
+              { "id": "racion-patatas-bravas", "name": "Patatas bravas", "price": "7€" },
+              { "id": "racion-lagrimas-pollo", "name": "Lágrimas de pollo", "price": "7€" }
+            ]
+          },
+          {
+            "title": "Pinchos y otros",
+            "votable": true,
+            "items": [
+              {
+                "id": "pincho-feria",
+                "name": "Pincho de feria",
+                "price": "4€"
+              },
+              {
+                "id": "pincho-brocheta-langostinos",
+                "name": "Brocheta de langostinos",
+                "price": "4€"
+              },
+              {
+                "id": "pincho-bocata-calamares-mayonesa-kimchi",
+                "name": "Bocata de calamares",
+                "description": "y mayonesa de kimchi",
+                "price": "4€"
+              },
+              {
+                "id": "pincho-moruno",
+                "name": "Pincho moruno",
+                "price": "4€"
+              },
+              {
+                "id": "pincho-crispy-chicken",
+                "name": "Crispy chicken",
+                "price": "4€"
+              },
+              {
+                "id": "pincho-burrito",
+                "name": "Burrito",
+                "price": "4€"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "INCLUYE AGUA, VINO, CAÑA O REFRESCO"
+        ]
       }
     },
     {
@@ -5397,6 +5609,24 @@
         "lng": -4.7385287,
         "source": "Mapa oficial Visit Valladolid 2026",
         "displayName": "Paseo de Zorrilla, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Pincho suelto 3,00 €",
+            "votable": true,
+            "items": []
+          },
+          {
+            "title": "Pincho + bebida 4,00 €",
+            "votable": true,
+            "items": [
+              { "id": "pincho-brocheta-pollo", "name": "Brocheta pollo", "description": "(PINCHO + BEBIDA)", "price": "4€" },
+              { "id": "pincho-pan-bao-pulled-pork", "name": "Pan bao pulled pork", "description": "(PINCHO + BEBIDA)", "price": "4€" },
+              { "id": "pincho-pulga-lomo-iberico", "name": "Pulga lomo ibérico", "description": "(PINCHO + BEBIDA)", "price": "4€" }
+            ]
+          }
+        ]
       }
     },
     {
@@ -6468,13 +6698,30 @@
                 "id": "racion-sopas-ajo",
                 "name": "Sopas de ajo",
                 "price": "3€"
+              },
+              {
+                "id": "bomba-charra",
+                "name": "Bomba Charra",
+                "price": "5€"
               }
             ]
           },
           {
-            "title": "Postres",
+            "title": "Postres 6€",
             "votable": true,
             "items": [
+              {
+                "id": "postre-trufas-nata",
+                "name": "Trufas con nata"
+              },
+              {
+                "id": "postre-queso-nueces",
+                "name": "Queso con nueces"
+              },
+              {
+                "id": "postre-yogur-fresas",
+                "name": "Yogur con fresas"
+              },
               {
                 "id": "postre-mousse-chocolate-blanco",
                 "name": "Mousse de chocolate blanco"
@@ -6484,7 +6731,130 @@
                 "name": "Tiramisú"
               }
             ]
+          },
+          {
+            "title": "Cerveza 2,50€",
+            "votable": false,
+            "items": [
+              {
+                "id": "bebida-cana",
+                "name": "Caña"
+              },
+              {
+                "id": "bebida-cana-sin-alcohol",
+                "name": "Caña sin alcohol"
+              },
+              {
+                "id": "bebida-cana-limon",
+                "name": "Caña con limón"
+              }
+            ]
+          },
+          {
+            "title": "Tinto de verano",
+            "votable": false,
+            "items": [
+              {
+                "id": "bebida-tinto-verano",
+                "name": "Tinto de verano",
+                "price": "2,50€"
+              }
+            ]
+          },
+          {
+            "title": "Refrescos 2€",
+            "votable": false,
+            "items": [
+              {
+                "id": "refresco-coca-cola",
+                "name": "Coca-Cola"
+              },
+              {
+                "id": "refresco-fanta",
+                "name": "Fanta"
+              },
+              {
+                "id": "refresco-coca-cola-zero",
+                "name": "Coca-Cola Zero"
+              },
+              {
+                "id": "refresco-fanta-variedad",
+                "name": "Fanta"
+              },
+              {
+                "id": "refresco-fuze-tea",
+                "name": "Fuze Tea"
+              }
+            ]
+          },
+          {
+            "title": "Chato de vino 1,50€",
+            "votable": false,
+            "items": [
+              {
+                "id": "vino-tinto",
+                "name": "Tinto"
+              },
+              {
+                "id": "vino-blanco",
+                "name": "Blanco"
+              },
+              {
+                "id": "vino-rosado",
+                "name": "Rosado"
+              }
+            ]
+          },
+          {
+            "title": "Agua",
+            "votable": false,
+            "items": [
+              {
+                "id": "bebida-agua",
+                "name": "Agua",
+                "price": "1€"
+              }
+            ]
+          },
+          {
+            "title": "Cremas 3€",
+            "votable": false,
+            "items": [
+              {
+                "id": "crema-bellota",
+                "name": "Bellota"
+              },
+              {
+                "id": "crema-orujo",
+                "name": "Orujo"
+              }
+            ]
+          },
+          {
+            "title": "Café de puchero 1,50€",
+            "votable": false,
+            "items": [
+              {
+                "id": "cafe-solo",
+                "name": "Solo"
+              },
+              {
+                "id": "cafe-cortado",
+                "name": "cortado"
+              },
+              {
+                "id": "cafe-con-leche",
+                "name": "con leche"
+              },
+              {
+                "id": "cafe-crema-orujo",
+                "name": "con crema de orujo"
+              }
+            ]
           }
+        ],
+        "highlights": [
+          "DISPONEMOS DE INFORMACIÓN DE ALÉRGENOS DE TODOS NUESTROS PRODUCTOS"
         ]
       }
     },
@@ -6566,6 +6936,46 @@
         "source": "Google Maps",
         "displayName": "Recinto Ferial Jose Luis Bellido, Valladolid, España",
         "query": "Recinto ferial José Luis Bellido, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Lista de precios",
+            "votable": false,
+            "items": [
+              { "id": "bebida-botella-albarino", "name": "Botella Albariño", "price": "13,00 €" },
+              { "id": "bebida-botella-godello", "name": "Botella Godello", "description": "(Ribeira Sacra)", "price": "13,00 €" },
+              { "id": "bebida-botella-ribeiro", "name": "Botella Ribeiro", "price": "9,00 €" },
+              { "id": "bebida-botella-crema-orujo", "name": "Botella de crema de orujo", "price": "20,00 €" },
+              { "id": "bebida-botellin-agua", "name": "Botellin agua", "price": "1,00 €" },
+              { "id": "bebida-cana-cerveza", "name": "Caña de cerveza", "price": "2,50 €" },
+              { "id": "bebida-refresco", "name": "Refresco", "price": "2,00 €" },
+              { "id": "bebida-chato-albarino", "name": "Chato Albariño", "price": "2,50 €" },
+              { "id": "bebida-chato-godello", "name": "Chato Godello", "price": "2,50 €" },
+              { "id": "bebida-chato-ribeiro", "name": "Chato Ribeiro", "price": "2,00 €" },
+              { "id": "bebida-chupito-crema-orujo", "name": "Chupito de crema de orujo", "price": "2,50 €" }
+            ]
+          },
+          {
+            "title": "Raciones",
+            "votable": true,
+            "items": [
+              { "id": "racion-empanada", "name": "Racion empanada", "price": "4,00 €" },
+              { "id": "racion-media-empanada", "name": "1/2 empanada", "description": "(10 raciones)", "price": "35,00 €" },
+              { "id": "racion-empanada-entera", "name": "Empanada entera", "description": "(20 raciones)", "price": "60,00 €" },
+              { "id": "racion-mejillones-vapor", "name": "Mejillones vapor", "price": "10,00 €" },
+              { "id": "racion-pimientos-padron", "name": "Pimientos de padron", "price": "8,00 €" },
+              { "id": "racion-lacon", "name": "Racion lacon", "price": "9,00 €" },
+              { "id": "racion-oreja", "name": "Racion oreja", "price": "9,00 €" },
+              { "id": "racion-pulpo", "name": "Racion pulpo", "price": "15,00 €" },
+              { "id": "racion-tarta-santiago", "name": "Racion tarta de Santiago", "price": "2,00 €" },
+              { "id": "racion-tarta-santiago-entera", "name": "Tarta de Santiago entera", "price": "13,00 €" }
+            ]
+          }
+        ],
+        "highlights": [
+          "Si tiene tipo de intolerancia alimentaria, no dudes en preguntar"
+        ]
       }
     },
     {
@@ -6657,6 +7067,30 @@
         "source": "Google Maps",
         "displayName": "Recinto Ferial Jose Luis Bellido, Valladolid, España",
         "query": "Recinto ferial José Luis Bellido, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Carta",
+            "votable": true,
+            "items": [
+              { "id": "plato-tomate-huerta", "name": "Auténtico tomate de nuestra huerta", "price": "7€" },
+              { "id": "plato-pollo-frito-patatas-pimientos", "name": "Pollo frito con patatas y pimientos", "price": "12€" },
+              { "id": "plato-champinon", "name": "Champiñón", "price": "11€" },
+              { "id": "plato-gazpacho-riojano", "name": "Gazpacho Riojano", "price": "2,50€" },
+              { "id": "plato-huevos-fritos-fritada", "name": "Huevos fritos de fritada", "price": "8€" },
+              { "id": "plato-fajito-riojano", "name": "Fajito riojano", "price": "2,5€" },
+              { "id": "postre-tarta-queso", "name": "Tarta de queso", "price": "5€" },
+              { "id": "plato-piparras", "name": "Piparras", "price": "8€" },
+              { "id": "plato-patatas-la-riojana", "name": "Patatas La Riojana", "price": "6€" },
+              { "id": "plato-pimientos-verdes-fritos", "name": "Pimientos verdes fritos", "price": "7€" },
+              { "id": "pincho-carne-riojano", "name": "Pincho de carne RIOJANO", "price": "3,5€" },
+              { "id": "plato-chorizo", "name": "Chorizo", "price": "2,50€" },
+              { "id": "plato-ensalada-tomate-ventresca", "name": "Ensalada de tomate con ventresca", "price": "11€" },
+              { "id": "postre-tortitas-abuela", "name": "Tortitas de abuela", "price": "4€" }
+            ]
+          }
+        ]
       }
     },
     {
@@ -6677,6 +7111,95 @@
         "source": "Google Maps",
         "displayName": "Recinto Ferial Jose Luis Bellido, Valladolid, España",
         "query": "Recinto ferial José Luis Bellido, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Pizza/tapas",
+            "votable": true,
+            "items": [
+              { "id": "plato-patatas-chistorra", "name": "Patatas con chistorra", "price": "4,50€" },
+              { "id": "plato-patatas-salsa-pimientos", "name": "Patatas con salsa de pimientos" },
+              { "id": "plato-chistorra-txistorra", "name": "Chistorra \"Txistorra\"" },
+              { "id": "plato-pimientos-con-sin-pimientos", "name": "Con pimientos y sin pimientos", "price": "2,80€" },
+              { "id": "plato-esparragos", "name": "Espárragos", "price": "7,50€" },
+              { "id": "plato-magras-huevo-tomate", "name": "Magras con huevo y tomate", "price": "7€" },
+              { "id": "plato-migas-pequeno", "name": "Migas Pequeño", "price": "3,50€" },
+              { "id": "plato-pimientos-piquillo", "name": "Pimientos del piquillo", "description": "(1 unidad)", "price": "2,80€" },
+              { "id": "plato-pimientos-rellenos-bacalao", "name": "Pimientos rellenos de bacalao", "price": "3€" },
+              { "id": "plato-pochas", "name": "Pochas", "price": "5,50€" },
+              { "id": "plato-piparras", "name": "Piparras", "price": "5€" }
+            ]
+          },
+          {
+            "title": "Postres",
+            "votable": true,
+            "items": [
+              { "id": "postre-queso-oveja", "name": "Queso de oveja", "price": "2,8€" },
+              { "id": "postre-cuajada-natural", "name": "Cuajada natural", "price": "2,5€" },
+              { "id": "postre-yogur-natural-sabores", "name": "Yogur natural y de sabores", "price": "2€" }
+            ]
+          },
+          {
+            "title": "Vino",
+            "votable": false,
+            "items": [
+              { "id": "vino-joven-ayerra-tinto-rosado", "name": "Joven Ayerra tinto y rosado", "description": "Chato", "price": "1,60€" },
+              { "id": "vino-crianza-ayerra-tinto", "name": "Crianza Ayerra tinto", "description": "Chato", "price": "2,60€" },
+              { "id": "vino-ayerra-blanco", "name": "Ayerra Blanco", "description": "Chato", "price": "1,90€" }
+            ]
+          },
+          {
+            "title": "Cerveza",
+            "votable": false,
+            "items": [
+              { "id": "bebida-cana", "name": "Caña", "price": "2,5€" },
+              { "id": "bebida-cana-sin-alcohol", "name": "Caña sin alcohol" },
+              { "id": "bebida-cana-limon", "name": "Caña con limón" }
+            ]
+          },
+          {
+            "title": "Kalimotxo",
+            "votable": false,
+            "items": [
+              { "id": "bebida-kalimotxo", "name": "Kalimotxo", "price": "2€" }
+            ]
+          },
+          {
+            "title": "Zurracapote",
+            "votable": false,
+            "items": [
+              { "id": "bebida-zurracapote", "name": "Zurracapote", "price": "2,50€" }
+            ]
+          },
+          {
+            "title": "Refrescos 2€",
+            "votable": false,
+            "items": [
+              { "id": "refresco-coca-cola", "name": "Coca-Cola" },
+              { "id": "refresco-fanta", "name": "Fanta" },
+              { "id": "refresco-coca-cola-zero", "name": "Coca-Cola Zero" },
+              { "id": "refresco-fanta-zero", "name": "Fanta Zero" }
+            ]
+          },
+          {
+            "title": "Patxarán",
+            "votable": false,
+            "items": [
+              { "id": "bebida-patxaran", "name": "Patxarán", "price": "3€" }
+            ]
+          },
+          {
+            "title": "Agua",
+            "votable": false,
+            "items": [
+              { "id": "bebida-agua", "name": "Agua", "price": "1€" }
+            ]
+          }
+        ],
+        "highlights": [
+          "Las fotos contenidas en esta carta son una sugerencia de presentación, que pueden ajustarse o no a la realidad, o sufrir cambios."
+        ]
       }
     },
     {
@@ -6697,6 +7220,34 @@
         "source": "Google Maps",
         "displayName": "Recinto Ferial Jose Luis Bellido, Valladolid, España",
         "query": "Recinto ferial José Luis Bellido, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Lista de precios",
+            "votable": true,
+            "items": [
+              { "id": "paella-valenciana", "name": "Paella valenciana", "description": "(pollo, conejo, garrofó, alubia verde)", "price": "8'00€" },
+              { "id": "fideua", "name": "Fideuá", "description": "(langostino pelado, mejillón, calamar, cazón y ali-oli)", "price": "9'00€" },
+              { "id": "arroz-negro", "name": "Arroz negro", "description": "(langostino pelado, mejillón, calamar, cazón y ali-oli)", "price": "10'00€" },
+              { "id": "arroz-senoret", "name": "Arroz señoret", "description": "(langostino pelado, mejillón, calamar, cazón y ali-oli)", "price": "11'00€" },
+              { "id": "patatas-bravalencianas", "name": "Patatas bravalencianas", "price": "5'50€" },
+              { "id": "calamares", "name": "Calamares", "price": "10'00€" },
+              { "id": "crepe-pollo-mediterranea", "name": "Crepe de pollo a la mediterránea", "price": "6'00€" },
+              { "id": "croquetas-jamon-iberico", "name": "Croquetas de jamón ibérico", "description": "(4 ud.)", "price": "6'50€" },
+              { "id": "brocheta-pollo", "name": "Brocheta de pollo", "price": "5'50€" }
+            ]
+          },
+          {
+            "title": "Postres",
+            "votable": true,
+            "items": [
+              { "id": "postre-horchata-farton", "name": "Horchata con fartón", "price": "5'50€" },
+              { "id": "postre-arroz-horchata", "name": "Arroz con horchata", "price": "5'50€" },
+              { "id": "postre-tarta-casera-toffee", "name": "Tarta de la casera al toffee", "price": "6'00€" }
+            ]
+          }
+        ]
       }
     },
     {
@@ -6717,6 +7268,25 @@
         "source": "Google Maps",
         "displayName": "Recinto Ferial Jose Luis Bellido, Valladolid, España",
         "query": "Recinto ferial José Luis Bellido, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Carta",
+            "votable": true,
+            "items": [
+              { "id": "chacha-patatas", "name": "Chacha de patatas", "price": "3€" },
+              { "id": "tosta-pulpo-alioli", "name": "Tosta de pulpo alioli", "price": "7€" },
+              { "id": "tosta-jamon-iberico", "name": "Tosta jamón ibérico", "price": "7€" },
+              { "id": "tosta-espanola-bombeta-catalana", "name": "Tosta de española bombeta Catalana", "price": "3,50€" },
+              { "id": "torreja-salsa-catalana", "name": "Torreja con salsa catalana", "price": "3€" },
+              { "id": "cafe-bombon", "name": "Café con bombon", "price": "1€" },
+              { "id": "capuchino-cafe", "name": "Capuchino de café", "price": "1€" },
+              { "id": "crema-catalana", "name": "Crema catalana", "price": "3€" },
+              { "id": "helado-furia", "name": "Helado de furia", "price": "2€" }
+            ]
+          }
+        ]
       }
     },
     {
@@ -6933,6 +7503,74 @@
         "source": "Google Maps",
         "displayName": "Recinto Ferial Jose Luis Bellido, Valladolid, España",
         "query": "Recinto ferial José Luis Bellido, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Platos",
+            "votable": true,
+            "items": [
+              { "id": "plato-langostinos-melillense", "name": "Langostinos al estilo Melillense", "price": "8,00€" },
+              { "id": "plato-calamares-rebozados", "name": "Calamares rebozados", "price": "9,00€" },
+              { "id": "plato-mejillones-salsa-melillense", "name": "Mejillones con salsa Melillense", "price": "8,00€" },
+              { "id": "pincho-carne-brasa", "name": "Pincho de carne a la brasa", "description": "(Sin gluten) (4 UNIDADES)", "price": "11,00€", "glutenFree": true },
+              { "id": "plato-gamba-cocida-melillense", "name": "Gamba cocida Melillense", "price": "8,00€" },
+              { "id": "plato-alitas-muslos-pollo-melillense", "name": "Alitas • Muslos de pollo a lo Melillense", "description": "(10 UNIDADES)", "price": "8,00€" },
+              { "id": "plato-croquetas-pincho-moruno", "name": "Croquetas de pincho moruno", "price": "8€" }
+            ]
+          },
+          {
+            "title": "Postres",
+            "votable": true,
+            "items": [
+              { "id": "postre-abimelillense", "name": "Abimelillense", "price": "3,00€" },
+              { "id": "postre-milhoja-caramelo", "name": "Milhoja de caramelo", "price": "3€" },
+              { "id": "postre-tarta-manzana", "name": "Tarta de manzana", "price": "3€" },
+              { "id": "postre-milhoja-almendra", "name": "Milhoja de almendra", "price": "3€" },
+              { "id": "postre-tarta-arandanos", "name": "Tarta de arándanos", "price": "2€" }
+            ]
+          },
+          {
+            "title": "Cerveza",
+            "votable": false,
+            "items": [
+              { "id": "bebida-cana", "name": "Caña", "price": "2,50€" },
+              { "id": "bebida-cana-sin-alcohol", "name": "Caña sin alcohol" },
+              { "id": "bebida-cana-limon", "name": "Caña con limón" }
+            ]
+          },
+          {
+            "title": "Agua",
+            "votable": false,
+            "items": [
+              { "id": "bebida-agua", "name": "Agua", "price": "1€" }
+            ]
+          },
+          {
+            "title": "Refrescos",
+            "votable": false,
+            "items": []
+          },
+          {
+            "title": "Chato de vino 1,80€",
+            "votable": false,
+            "items": [
+              { "id": "vino-tinto", "name": "Tinto" },
+              { "id": "vino-blanco", "name": "Blanco" },
+              { "id": "vino-rosado", "name": "Rosado" }
+            ]
+          },
+          {
+            "title": "Café",
+            "votable": false,
+            "items": [
+              { "id": "cafe-chupito", "name": "Chupito" },
+              { "id": "cafe-crema-orujo-chocolate", "name": "Crema de orujo con chocolate", "price": "2,50€" },
+              { "id": "te-hierbabuena", "name": "Té con hierbabuena", "price": "1,30€" },
+              { "id": "cafe", "name": "Café", "price": "1,30€" }
+            ]
+          }
+        ]
       }
     }
   ]
