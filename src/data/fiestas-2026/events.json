@@ -28169,5 +28169,41 @@
     "tags": [
       "Deporte"
     ]
+  },
+  {
+    "id": 915,
+    "date": "2026-09-06",
+    "dateLabel": "Domingo 6 de septiembre",
+    "startTime": "13:30",
+    "endTime": "14:30",
+    "title": "Lolailo en Concierto",
+    "image": "https://foro.aldeapucela.org/uploads/default/optimized/2X/3/35a14de6186b8d6857bf7e52f41b6736e3739a94_2_698x1024.jpeg",
+    "location": "Casetas de la, Plaza de la Universidad Plaza de la Universidad",
+    "zone": "Zona Centro",
+    "description": "Lolailo llega con su propuesta musical para ofrecer un concierto especial en las Casetas de la Plaza de la Universidad. La cita tendrá lugar este 6 de septiembre a las 13:30 horas, ofreciendo una experiencia sonora única en un entorno emblemático.",
+    "summary": "Lolailo llega con su propuesta musical para ofrecer un concierto especial en las Casetas de la Plaza de la Universidad. La cita tendrá lugar este 6 de septiembre a las 13:30 horas, ofreciendo una experiencia sonora única en un entorno emblemático.",
+    "performances": [],
+    "organizers": [],
+    "collaborators": [],
+    "coordinates": {
+      "lat": 41.6528225,
+      "lng": -4.7223575,
+      "source": "OpenStreetMap Nominatim",
+      "osmType": "way",
+      "osmId": 61281999,
+      "query": "Plaza de la Universidad, Valladolid, España",
+      "accuracy": 1
+    },
+    "type": "Música",
+    "ticket": {
+      "required": false,
+      "status": "not_required",
+      "label": "Entrada libre",
+      "url": null,
+      "note": "La fuente remota indica que la entrada es libre o gratuita."
+    },
+    "tags": [
+      "Música"
+    ]
   }
 ]
