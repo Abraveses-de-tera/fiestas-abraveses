@@ -690,6 +690,34 @@
         "query": "Plaza San Benito, Valladolid, España",
         "accuracy": 0.8,
         "geocodedAt": "2026-08-26"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Tapa + bebida",
+            "votable": true,
+            "items": [
+              { "id": "tapa-bebida", "name": "Tapa + bebida", "price": "4€" }
+            ]
+          },
+          {
+            "title": "Guiso del día",
+            "votable": true,
+            "items": [
+              { "id": "guiso-del-dia", "name": "Guiso del día" }
+            ]
+          },
+          {
+            "title": "Romeritos",
+            "votable": true,
+            "items": [
+              { "id": "romerito-secreto-iberico", "name": "Secreto ibérico" },
+              { "id": "romerito-chorizo-sidra", "name": "Chorizo a la sidra" },
+              { "id": "romerito-solomillo-requefort", "name": "Solomillo Requefort" },
+              { "id": "romerito-ventresca-sardina-horno", "name": "Ventresca de sardina al horno" }
+            ]
+          }
+        ]
       }
     },
     {
