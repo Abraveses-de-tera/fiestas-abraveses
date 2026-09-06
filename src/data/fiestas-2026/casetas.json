@@ -6200,6 +6200,139 @@
         "source": "Google Maps",
         "displayName": "Recinto Ferial Jose Luis Bellido, Valladolid, España",
         "query": "Recinto ferial José Luis Bellido, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Pinchos (2,5€)",
+            "votable": true,
+            "items": [
+              {
+                "id": "pincho-pulga-jamon-serrano",
+                "name": "Pulga de Jamón serrano"
+              },
+              {
+                "id": "pincho-morcilla-fresca",
+                "name": "Morcilla fresca"
+              },
+              {
+                "id": "pincho-morcilla-arroz-carbajosa",
+                "name": "Morcilla de arroz (de Carbajosa)"
+              },
+              {
+                "id": "pincho-farinato",
+                "name": "Farinato"
+              }
+            ]
+          },
+          {
+            "title": "Raciones",
+            "votable": true,
+            "items": [
+              {
+                "id": "racion-chichas-matanza",
+                "name": "CHICHAS de la matanza"
+              },
+              {
+                "id": "racion-sin-huevo",
+                "name": "Ración sin huevo",
+                "price": "5€"
+              },
+              {
+                "id": "racion-con-huevo",
+                "name": "Ración con huevo",
+                "price": "5,50€"
+              }
+            ]
+          },
+          {
+            "title": "Hornazo",
+            "votable": true,
+            "items": [
+              {
+                "id": "hornazo-racion",
+                "name": "Ración",
+                "price": "45€"
+              },
+              {
+                "id": "hornazo-entero",
+                "name": "Entero",
+                "price": "30€"
+              }
+            ]
+          },
+          {
+            "title": "Jamón",
+            "votable": true,
+            "items": [
+              {
+                "id": "jamon-cebo-campo-racion",
+                "name": "Cebo de campo: Ración",
+                "price": "14€"
+              },
+              {
+                "id": "jamon-iberico-montadito",
+                "name": "Ibérico: Montadito",
+                "price": "4€"
+              },
+              {
+                "id": "jamon-serrano-racion",
+                "name": "Serrano: Ración",
+                "price": "7,50€"
+              },
+              {
+                "id": "jamon-serrano-montadito",
+                "name": "Serrano: Montadito",
+                "price": "3,50€"
+              },
+              {
+                "id": "jamon-serrano-pulga",
+                "name": "Serrano: Pulga",
+                "price": "2,50€"
+              }
+            ]
+          },
+          {
+            "title": "Otros platos",
+            "votable": true,
+            "items": [
+              {
+                "id": "racion-farinato-huevo",
+                "name": "Farinato con huevo",
+                "price": "3€"
+              },
+              {
+                "id": "racion-torreznos",
+                "name": "Torreznos",
+                "price": "5,50€"
+              },
+              {
+                "id": "racion-patatas-meneas",
+                "name": "Patatas meneas",
+                "price": "4,50€"
+              },
+              {
+                "id": "racion-sopas-ajo",
+                "name": "Sopas de ajo",
+                "price": "3€"
+              }
+            ]
+          },
+          {
+            "title": "Postres",
+            "votable": true,
+            "items": [
+              {
+                "id": "postre-mousse-chocolate-blanco",
+                "name": "Mousse de chocolate blanco"
+              },
+              {
+                "id": "postre-tiramisu",
+                "name": "Tiramisú"
+              }
+            ]
+          }
+        ]
       }
     },
     {
