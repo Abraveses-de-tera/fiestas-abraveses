@@ -231,6 +231,105 @@
         "query": "Calle Calixto Fernandez de la Torre, Valladolid, Espana",
         "accuracy": 1,
         "geocodedAt": "2026-08-25T13:32:24.776Z"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Carta",
+            "votable": true,
+            "items": [
+              {
+                "id": "gratinado-gambas",
+                "name": "Gratinado de gambas",
+                "price": "3,00€"
+              },
+              {
+                "id": "brocheta-lechazo",
+                "name": "Brocheta de lechazo",
+                "price": "5,00€"
+              },
+              {
+                "id": "hamburguesita-wagyu",
+                "name": "Hamburguesita de Wagyu",
+                "price": "3,90€"
+              },
+              {
+                "id": "calamares-temporada",
+                "name": "Calamares de temporada",
+                "price": "19,00€"
+              },
+              {
+                "id": "espeto-sardina",
+                "name": "Espeto sardina",
+                "price": "9,00€"
+              },
+              {
+                "id": "miguelito",
+                "name": "Miguelito",
+                "price": "3,00€"
+              },
+              {
+                "id": "tosta-gambas",
+                "name": "Tosta de gambas",
+                "price": "3,50€"
+              },
+              {
+                "id": "brocheta-chorizo",
+                "name": "Brocheta de Chorizo",
+                "price": "2,20€"
+              },
+              {
+                "id": "postre-hina-mar",
+                "name": "Postre Hina de Mar",
+                "price": "4,00€"
+              },
+              {
+                "id": "pastel-arroz",
+                "name": "Pastel arroz",
+                "price": "4,00€"
+              },
+              {
+                "id": "lorencito",
+                "name": "Lorencito",
+                "price": "2,50€"
+              },
+              {
+                "id": "montadito-solomillo-roquefort",
+                "name": "Montadito de solomillo al roquefort"
+              },
+              {
+                "id": "montadito-calamares",
+                "name": "Montadito de calamares",
+                "price": "3,50€"
+              },
+              {
+                "id": "criollita-jamon-campeon",
+                "name": "Criollita de jamón campeón",
+                "price": "3,50€"
+              },
+              {
+                "id": "feria-dios-pinchos-feria",
+                "name": "Feria de Dios Pinchos Feria",
+                "price": "4,00€"
+              },
+              {
+                "id": "bomba-jijas",
+                "name": "Bomba de jijas",
+                "price": "2,20€"
+              },
+              {
+                "id": "tortita-camarone",
+                "name": "Tortita de camarone",
+                "price": "2,20€"
+              },
+              {
+                "id": "croquetin",
+                "name": "Croquetin",
+                "price": "2,20€"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -261,7 +360,33 @@
       "location": "Calle Campanas",
       "placement": "En su terraza",
       "addressQuery": "Calle Campanas, Valladolid, España",
-      "coordinates": null
+      "coordinates": null,
+      "details": {
+        "menuSections": [
+          {
+            "title": "Pincho de feria — Con caña 4€ · Con vermut 5,5€ · Con refresco 5€",
+            "votable": true,
+            "items": [
+              {
+                "id": "bocatin-rabas-alioli",
+                "name": "Bocatín de rabas con alioli"
+              },
+              {
+                "id": "bocatin-pollo-miel-mostaza",
+                "name": "Bocatín de pollo con miel mostaza"
+              },
+              {
+                "id": "alitas-pollo-salsa-barbacoa",
+                "name": "Alitas de pollo con salsa barbacoa"
+              },
+              {
+                "id": "arroz-dia",
+                "name": "Arroz del día"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "z1-09",
