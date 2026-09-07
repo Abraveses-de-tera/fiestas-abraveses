@@ -107,7 +107,7 @@ const days = [
         title: "Orquesta MEDIA LUNA",
         description: "Al descanso, Carrera de la sangría; al finalizar, ELECTROGARITO.",
         note: "Noche de disfraces: Tercera edad",
-        icon: "🎸",
+        photo: "images/disfraz.jpg",
         detail: "Noche de verbena con la Orquesta MEDIA LUNA, música para bailar y repertorio para todos los públicos. Durante el descanso se celebrará la Carrera de la sangría y, al terminar la orquesta, continuará la fiesta con ELECTROGARITO. La jornada incluye noche de disfraces para la tercera edad: una buena ocasión para participar, animar y disfrutar del ambiente."
       }
     ]
