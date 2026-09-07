@@ -2788,18 +2788,40 @@
             ]
           },
           {
+            "title": "Burger full size (sin gluten +2) (vegana +1)",
+            "votable": true,
+            "items": [
+              {
+                "id": "burger-cheeseburger",
+                "name": "Cheeseburger",
+                "description": "Carne vaca vieja madurada, queso cheddar, cebolla brunoise, pepinillo y kétchup.",
+                "price": "10",
+                "glutenFree": true
+              },
+              {
+                "id": "burger-bundi",
+                "name": "Bundi burger",
+                "description": "Carne de vaca vieja madurada, queso cheddar, cebolla pochada, pepinillo, salsa EMMY y bacon",
+                "price": "10",
+                "glutenFree": true
+              }
+            ]
+          },
+          {
             "title": "Pincho castizo + bebida",
             "votable": true,
             "items": [
               {
                 "id": "pincho-boludito",
                 "name": "Boludito",
-                "price": "4"
+                "price": "4",
+                "glutenFree": true
               },
               {
                 "id": "pincho-tosta-langostino",
-                "name": "Tosta langostino",
-                "price": "4,5"
+                "name": "Tosta de gambas",
+                "price": "4,5",
+                "glutenFree": true
               }
             ]
           },
@@ -2885,6 +2907,9 @@
               }
             ]
           }
+        ],
+        "highlights": [
+          "Las hamburguesas grandes tienen opción vegana (+1)."
         ]
       }
     },
@@ -5760,18 +5785,40 @@
             ]
           },
           {
+            "title": "Burger full size (sin gluten +2) (vegana +1)",
+            "votable": true,
+            "items": [
+              {
+                "id": "burger-cheeseburger",
+                "name": "Cheeseburger",
+                "description": "Carne vaca vieja madurada, queso cheddar, cebolla brunoise, pepinillo y kétchup.",
+                "price": "10",
+                "glutenFree": true
+              },
+              {
+                "id": "burger-bundi",
+                "name": "Bundi burger",
+                "description": "Carne de vaca vieja madurada, queso cheddar, cebolla pochada, pepinillo, salsa EMMY y bacon",
+                "price": "10",
+                "glutenFree": true
+              }
+            ]
+          },
+          {
             "title": "Pincho castizo + bebida",
             "votable": true,
             "items": [
               {
                 "id": "pincho-boludito",
                 "name": "Boludito",
-                "price": "4"
+                "price": "4",
+                "glutenFree": true
               },
               {
                 "id": "pincho-tosta-langostino",
-                "name": "Tosta langostino",
-                "price": "4,5"
+                "name": "Tosta de gambas",
+                "price": "4,5",
+                "glutenFree": true
               }
             ]
           },
@@ -5857,6 +5904,9 @@
               }
             ]
           }
+        ],
+        "highlights": [
+          "Las hamburguesas grandes tienen opción vegana (+1)."
         ]
       }
     },
