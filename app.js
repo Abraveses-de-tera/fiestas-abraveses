@@ -6,6 +6,7 @@ const days = [
     color: "orange",
     events: [
       {
+        eventId: "bailes-regionales",
         time: "20:00",
         title: "Bailes regionales",
         description: "A cargo de Doña Urraca.",
@@ -21,6 +22,7 @@ const days = [
     color: "red",
     events: [
       {
+        eventId: "ruta-bodegas",
         time: "19:00",
         title: "II Ruta por las bodegas",
         description: "Con la charanga MANÁITA.",
@@ -30,6 +32,7 @@ const days = [
         detail: "Recorrido festivo por las bodegas de Abraveses de Tera acompañado por la charanga MANÁITA. La propuesta combina música, convivencia y una forma diferente de descubrir los rincones con más historia del pueblo. Lleva calzado cómodo, respeta las indicaciones de la organización y consulta previamente el punto de salida y las condiciones de inscripción."
       },
       {
+        eventId: "desfile-disfraces",
         time: "22:30",
         title: "Desfile infantil de disfraces",
         icon: "🎭",
@@ -37,6 +40,7 @@ const days = [
         detail: "Los más pequeños serán protagonistas de una noche llena de imaginación. Anímate a preparar un disfraz individual, en familia o con amigos y participa en el recorrido por las calles del pueblo. Habrá música, ambiente festivo y tiempo para que cada participante luzca su creación. Se recomienda que los menores vayan acompañados por una persona adulta."
       },
       {
+        eventId: "campanadas",
         time: "00:00",
         title: "Campanadas inicio fiestas",
         icon: "🔔",
@@ -51,6 +55,7 @@ const days = [
     color: "blue",
     events: [
       {
+        eventId: "marcha-solidaria",
         time: "18:30",
         title: "Marcha solidaria FUNDAME",
         icon: "🚶",
@@ -58,18 +63,21 @@ const days = [
         detail: "Una caminata solidaria abierta a toda persona que quiera colaborar y sumar pasos por una buena causa. El ritmo estará pensado para que puedan participar familias, grupos de amigos y vecinos de distintas edades. Consulta con la organización el recorrido, el punto de encuentro y cualquier aportación solidaria prevista antes de comenzar."
       },
       {
+        eventId: "bingo-miercoles",
         time: "20:00",
         title: "Bingo",
         icon: "🎱",
         detail: "Momento de juego, risas y participación para compartir en grupo. El bingo es una de las actividades más populares de las fiestas por su ambiente cercano y por la emoción de cada número. Acude unos minutos antes para conseguir tu cartón y atender las indicaciones de la organización."
       },
       {
+        eventId: "cine-aire-libre",
         time: "21:30",
         title: "Cine al aire libre",
         icon: "🎬",
         detail: "Una sesión de cine bajo las estrellas para disfrutar en familia. Trae una silla cómoda, una manta si refresca y algo de picoteo para vivir una noche de verano diferente. La película y el espacio de proyección podrán confirmarse en los avisos de la organización antes de la actividad."
       },
       {
+        eventId: "campeonato-tute",
         time: "23:30",
         title: "Campeonato de tute",
         note: "Inscripción hasta las 23 h",
@@ -85,12 +93,14 @@ const days = [
     color: "yellow",
     events: [
       {
+        eventId: "juegos-infantiles",
         time: "17:00",
         title: "Juegos infantiles",
         icon: "🪁",
         detail: "Tarde de propuestas pensadas para que niños y niñas jueguen, se muevan y compartan las fiestas con sus amigos. Habrá actividades sencillas y participativas adaptadas al ambiente festivo. Se recomienda llevar agua, protección solar si aún hay sol y ropa cómoda para correr y jugar."
       },
       {
+        eventId: "grand-prix-braga",
         time: "19:00",
         title: "I Grand Prix Braga",
         note: "Mayores de 16 años",
@@ -98,12 +108,14 @@ const days = [
         detail: "Prueba festiva de equipos con retos, habilidad, equilibrio y muchas risas. El Grand Prix está pensado para participantes mayores de 16 años que quieran colaborar con su peña o grupo de amigos. Consulta la normativa, los equipos disponibles y las medidas de seguridad antes de participar."
       },
       {
+        eventId: "sardinada",
         time: "21:30",
         title: "Sardinada",
         icon: "🐟",
         detail: "Una cita gastronómica para reunirse alrededor de una tradición de verano: las sardinas compartidas entre vecinos, familiares y visitantes. Acércate con hambre y disfruta del ambiente de sobremesa y charla. La organización podrá indicar el sistema de reparto, horarios concretos y posibles turnos de atención."
       },
       {
+        eventId: "orquesta-media-luna",
         time: "23:30",
         title: "Orquesta MEDIA LUNA",
         description: "Al descanso, Carrera de la sangría; al finalizar, ELECTROGARITO.",
@@ -120,6 +132,7 @@ const days = [
     color: "green",
     events: [
       {
+        eventId: "bendicion-bolas",
         time: "18:30",
         title: "Bendición de bolas",
         icon: "🕯️",
@@ -127,6 +140,7 @@ const days = [
         detail: "Acto tradicional incluido en el programa festivo. Se recomienda acudir con unos minutos de antelación, mantener un ambiente respetuoso y seguir las indicaciones que se den en el lugar de celebración. Los detalles prácticos, punto de encuentro y posible participación se podrán comunicar por los canales de la organización."
       },
       {
+        eventId: "cagada-gallina",
         time: "21:00",
         title: "Cagada de la gallina",
         icon: "🐔",
@@ -134,6 +148,7 @@ const days = [
         detail: "Uno de los juegos más divertidos y comentados de las fiestas. Los participantes eligen su casilla y esperan a que la suerte decida el resultado, siempre en un ambiente de humor y convivencia. Consulta en el lugar de la actividad cómo participar, los horarios de venta y las normas del juego."
       },
       {
+        eventId: "electromoon",
         time: "01:00",
         title: "ELECTROMOON",
         icon: "🌙",
@@ -148,42 +163,49 @@ const days = [
     color: "pink",
     events: [
       {
+        eventId: "misa-difuntos",
         time: "12:00",
         title: "Misa por los difuntos",
         icon: "⛪",
         detail: "Celebración en recuerdo de las personas fallecidas y de quienes forman parte de la memoria de Abraveses de Tera. Es un momento de recogimiento dentro del programa de fiestas, abierto a quienes quieran acompañar a familiares y vecinos. Se ruega puntualidad y respeto durante el acto."
       },
       {
+        eventId: "paella-popular",
         time: "15:00",
         title: "Paella popular",
         icon: "🥘",
         detail: "Comida popular para reunir a vecinos, familias y visitantes alrededor de una gran paella. Es una de las citas centrales del sábado, ideal para compartir mesa, conversación y ambiente de pueblo. Consulta en los avisos oficiales cómo se organiza el reparto, si hay tickets o turnos y a qué hora conviene acercarse."
       },
       {
+        eventId: "edu-mago",
         time: "16:00",
         title: "Edu el mago",
         icon: "🪄",
         detail: "Espectáculo de magia familiar con trucos, humor y participación del público. Edu el mago propondrá una sesión cercana para sorprender a pequeños y mayores, por lo que es recomendable llegar unos minutos antes para colocarse con comodidad. Mantén a los niños cerca y prepárate para participar si te toca salir al escenario."
       },
       {
+        eventId: "parque-acuatico",
         time: "17:00",
         title: "Parque acuático",
         icon: "💦",
         detail: "Tarde refrescante de juegos de agua y diversión para combatir el calor. Lleva bañador, toalla, chanclas y ropa de recambio; los menores deberán seguir las indicaciones de seguridad y permanecer bajo la supervisión de sus responsables. Revisa el lugar y las normas antes de acceder a las atracciones."
       },
       {
+        eventId: "bingo-sabado",
         time: "19:00",
         title: "Bingo",
         icon: "🎱",
         detail: "Nueva oportunidad para jugar al bingo durante el sábado de fiestas. Reúne a tu familia o a tu peña, compra tu cartón y sigue los números con atención. Más allá de los premios, es un rato perfecto para coincidir con gente del pueblo y mantener el ambiente de la tarde."
       },
       {
+        eventId: "beer-pong",
         time: "19:30",
         title: "Torneo de Beer Pong",
         icon: "🏓",
         detail: "Competición por equipos basada en puntería y coordinación, pensada para el ambiente festivo adulto. Consulta antes las normas, el formato de inscripción y las condiciones de participación. La actividad debe disfrutarse con responsabilidad, respetando a las demás personas y las indicaciones de la organización."
       },
       {
+        eventId: "syn3rgia",
         time: "01:00",
         title: "Grupo SYN3RGIA",
         description: "En el descanso y al finalizar: ELECTROGARITO con DJ DAMM VALLEY.",
@@ -199,6 +221,7 @@ const days = [
     color: "cyan",
     events: [
       {
+        eventId: "romeria-pendones",
         time: "13:00",
         title: "Romería de pendones",
         icon: "🚩",
@@ -206,18 +229,21 @@ const days = [
         detail: "Desfile tradicional de pendones que reúne color, música y patrimonio popular. Es una oportunidad para contemplar de cerca estas enseñas y acompañar el recorrido en un ambiente comunitario. Respeta el espacio de las personas que portan los pendones y sigue las indicaciones de la organización durante el trayecto."
       },
       {
+        eventId: "pulpero",
         time: "14:00",
         title: "Pulpero",
         icon: "🐙",
         detail: "Cita gastronómica para degustar pulpo y disfrutar de una comida informal de domingo. Acércate con tiempo para conocer el funcionamiento del servicio, los posibles turnos y la disponibilidad. Un momento ideal para despedir las fiestas alrededor de una mesa y con buena conversación."
       },
       {
+        eventId: "parque-infantil",
         time: "17:00",
         title: "Parque infantil",
         icon: "🎈",
         detail: "Espacio de juego y entretenimiento destinado al público infantil para que los más pequeños cierren las fiestas con actividades a su medida. Lleva agua y ropa cómoda, y recuerda que los menores deben estar atendidos por sus padres, madres o personas responsables."
       },
       {
+        eventId: "tardeo-markfeel",
         time: "19:00",
         title: "Tardeo con MARKFEEL",
         icon: "🎧",
@@ -232,6 +258,25 @@ const eventList = document.querySelector("#eventList");
 const selectedDay = document.querySelector("#selectedDay");
 const todayButton = document.querySelector("#todayButton");
 let selectedId = "all";
+
+const STORAGE_KEY = "abravesesAsistencias";
+let attendCounts = {};
+
+function getConfirmed() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+  } catch (_) {
+    return {};
+  }
+}
+
+function setConfirmed(map) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(map));
+}
+
+function hasFirebase() {
+  return typeof firebase !== "undefined" && firebase.apps && firebase.apps.length > 0;
+}
 
 function renderTabs() {
   const all = `<button class="day-tab ${selectedId === "all" ? "is-active" : ""}" type="button" data-day="all" aria-pressed="${selectedId === "all"}"><span>Todos</span><strong>✓</strong></button>`;
@@ -253,6 +298,19 @@ function visualMarkup(event, color) {
   return `<div class="event-visual" style="--accent: var(--${color})" aria-hidden="true">${event.icon}</div>`;
 }
 
+function attendMarkup(event) {
+  const confirmed = getConfirmed()[event.eventId] === true;
+  const count = attendCounts[event.eventId] || 0;
+  return `
+    <div class="attend-row">
+      <button class="attend-button ${confirmed ? "is-going" : ""}" type="button" data-attend="${event.eventId}">
+        ${confirmed ? "Ya voy ✓" : "Asistir"}
+      </button>
+      <span class="attend-count" data-attend-count="${event.eventId}">${count} ${count === 1 ? "persona va" : "personas van"}</span>
+    </div>
+  `;
+}
+
 function card(event, color, id) {
   return `
     <article class="event-card" style="--accent: var(--${color})">
@@ -271,6 +329,7 @@ function card(event, color, id) {
           ${visualMarkup(event, color)}
           <div class="event-description">
             <p>${event.detail}</p>
+            ${attendMarkup(event)}
           </div>
         </div>
       </div>
@@ -310,13 +369,51 @@ dayTabs.addEventListener("click", (event) => {
 todayButton.addEventListener("click", () => selectDay("all"));
 
 eventList.addEventListener("click", (event) => {
-  const button = event.target.closest("[data-event]");
-  if (!button) return;
+  const chevronButton = event.target.closest("[data-event]");
+  if (chevronButton) {
+    const card = chevronButton.closest(".event-card");
+    const open = card.classList.toggle("is-open");
+    chevronButton.setAttribute("aria-expanded", String(open));
+    return;
+  }
 
-  const card = button.closest(".event-card");
-  const open = card.classList.toggle("is-open");
-  button.setAttribute("aria-expanded", String(open));
+  const attendButton = event.target.closest("[data-attend]");
+  if (attendButton) {
+    toggleAttendance(attendButton.dataset.attend, attendButton);
+  }
 });
+
+function toggleAttendance(eventId, button) {
+  if (!hasFirebase()) return;
+  const confirmedMap = getConfirmed();
+  const alreadyGoing = confirmedMap[eventId] === true;
+  const ref = firebase.database().ref(`asistentes/${eventId}`);
+
+  ref.transaction((current) => {
+    const value = typeof current === "number" ? current : 0;
+    return alreadyGoing ? Math.max(0, value - 1) : value + 1;
+  }).then(() => {
+    confirmedMap[eventId] = !alreadyGoing;
+    setConfirmed(confirmedMap);
+    button.classList.toggle("is-going", !alreadyGoing);
+    button.textContent = !alreadyGoing ? "Ya voy ✓" : "Asistir";
+  }).catch((error) => {
+    console.error("No se pudo actualizar la asistencia.", error);
+  });
+}
+
+function listenAttendanceCounts() {
+  if (!hasFirebase()) return;
+  firebase.database().ref("asistentes").on("value", (snapshot) => {
+    attendCounts = snapshot.val() || {};
+    document.querySelectorAll("[data-attend-count]").forEach((element) => {
+      const eventId = element.dataset.attendCount;
+      const count = attendCounts[eventId] || 0;
+      element.textContent = `${count} ${count === 1 ? "persona va" : "personas van"}`;
+    });
+  });
+}
 
 renderTabs();
 renderEvents();
+listenAttendanceCounts();
