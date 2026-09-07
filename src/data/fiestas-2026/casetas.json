@@ -7482,6 +7482,161 @@
         "source": "Google Maps",
         "displayName": "Recinto Ferial Jose Luis Bellido, Valladolid, España",
         "query": "Recinto ferial José Luis Bellido, Valladolid, España"
+      },
+      "details": {
+        "menuSections": [
+          {
+            "title": "Platos carta",
+            "votable": false,
+            "items": [
+              {
+                "id": "plato-pulpo-brasa",
+                "name": "Pulpo a la brasa",
+                "price": "5,00"
+              },
+              {
+                "id": "plato-doble-pulpo-brasa",
+                "name": "Doble de Pulpo a la brasa",
+                "price": "9,50"
+              },
+              {
+                "id": "plato-atun-rojo-brasa-ricardo-fuentes",
+                "name": "Atún rojo a la brasa de Ricardo Fuentes",
+                "price": "7,50"
+              },
+              {
+                "id": "plato-tartar-atun-rojo-ricardo-fuentes",
+                "name": "Tartar de atún rojo de Ricardo Fuentes",
+                "price": "7,50"
+              },
+              {
+                "id": "plato-garbanzos-pulpo",
+                "name": "Garbanzos con pulpo",
+                "price": "6,00"
+              },
+              {
+                "id": "plato-zarangollo-murciano",
+                "name": "Zarangollo murciano",
+                "description": "calabacín, patata, cebolla y huevo",
+                "price": "6,00",
+                "dietary": "vegetarian"
+              },
+              {
+                "id": "racion-pan",
+                "name": "Ración de pan",
+                "price": "1,00"
+              }
+            ]
+          },
+          {
+            "title": "Postres",
+            "votable": false,
+            "items": [
+              {
+                "id": "postre-paparajote",
+                "name": "Paparajote",
+                "description": "hoja de limonero frita con azúcar en polvo y canela",
+                "price": "4,50"
+              },
+              {
+                "id": "postre-tarta-zanahoria",
+                "name": "Tarta de zanahoria",
+                "price": "5,00"
+              },
+              {
+                "id": "postre-brownie-helado-vainilla",
+                "name": "Brownie con helado de vainilla",
+                "price": "5,00"
+              }
+            ]
+          },
+          {
+            "title": "Bebidas",
+            "votable": false,
+            "items": [
+              {
+                "id": "bebida-cana",
+                "name": "Caña",
+                "price": "2,50"
+              },
+              {
+                "id": "bebida-cana-sin-alcohol",
+                "name": "Caña sin alcohol",
+                "price": "2,50"
+              },
+              {
+                "id": "bebida-cana-limon",
+                "name": "Caña con limón",
+                "price": "2,50"
+              },
+              {
+                "id": "bebida-chato-vino-tinto",
+                "name": "Chato de vino tinto",
+                "price": "2,00"
+              },
+              {
+                "id": "bebida-chato-vino-blanco",
+                "name": "Chato de vino blanco",
+                "price": "2,00"
+              },
+              {
+                "id": "bebida-tinto-verano",
+                "name": "Tinto de verano",
+                "price": "4,00"
+              },
+              {
+                "id": "bebida-fanta-naranja",
+                "name": "Fanta de naranja",
+                "price": "2,00"
+              },
+              {
+                "id": "bebida-fanta-limon",
+                "name": "Fanta de limón",
+                "price": "2,00"
+              },
+              {
+                "id": "bebida-aquarius-cola",
+                "name": "Aquarius-Cola",
+                "price": "2,00"
+              },
+              {
+                "id": "bebida-coca-cola-zero",
+                "name": "Coca-Cola Zero",
+                "price": "2,00"
+              },
+              {
+                "id": "bebida-nestea",
+                "name": "Nestea",
+                "price": "2,00"
+              },
+              {
+                "id": "bebida-agua-murcia-33cl",
+                "name": "Agua de Murcia 33cl",
+                "description": "vodka, champan, Fanta de limón, azúcar, hielo",
+                "price": "5,00"
+              },
+              {
+                "id": "bebida-agua-murcia-1-litro",
+                "name": "Agua de Murcia 1 litro",
+                "description": "vodka, champan, Fanta de limón, azúcar, hielo",
+                "price": "9,00"
+              },
+              {
+                "id": "bebida-agua",
+                "name": "Agua",
+                "price": "1,00"
+              },
+              {
+                "id": "bebida-cafe",
+                "name": "Café",
+                "price": "2,00"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "En relación a la prevención de anisakis, nuestros productos han sido sometidos a tratamientos térmicos o congelación, conforme con el Real Decreto 1420/2006"
+        ]
       }
     },
     {
