@@ -29,7 +29,9 @@ const days = [
         note: "Inscripción previa",
         icon: "🍷",
         photo: "images/ruta-bodegas.jpg",
-        detail: "Recorrido festivo por las bodegas de Abraveses de Tera acompañado por la charanga MANÁITA. La propuesta combina música, convivencia y una forma diferente de descubrir los rincones con más historia del pueblo. Lleva calzado cómodo, respeta las indicaciones de la organización y consulta previamente el punto de salida y las condiciones de inscripción."
+        detail: "Recorrido festivo por las bodegas de Abraveses de Tera acompañado por la charanga MANÁITA. La propuesta combina música, convivencia y una forma diferente de descubrir los rincones con más historia del pueblo. Lleva calzado cómodo, respeta las indicaciones de la organización y consulta previamente el punto de salida y las condiciones de inscripción.",
+        featured: true,
+        link: { label: "MANÁITA en Instagram", url: "https://www.instagram.com/manaitaoficial/?hl=es" }
       },
       {
         eventId: "desfile-disfraces",
@@ -60,7 +62,9 @@ const days = [
         title: "Marcha solidaria FUNDAME",
         icon: "🚶",
         photo: "images/marcha-solidaria.jpg",
-        detail: "Una caminata solidaria abierta a toda persona que quiera colaborar y sumar pasos por una buena causa. El ritmo estará pensado para que puedan participar familias, grupos de amigos y vecinos de distintas edades. Consulta con la organización el recorrido, el punto de encuentro y cualquier aportación solidaria prevista antes de comenzar."
+        detail: "Una caminata solidaria abierta a toda persona que quiera colaborar y sumar pasos por una buena causa. El ritmo estará pensado para que puedan participar familias, grupos de amigos y vecinos de distintas edades. Consulta con la organización el recorrido, el punto de encuentro y cualquier aportación solidaria prevista antes de comenzar.",
+        featured: true,
+        link: { label: "Conoce FUNDAME", url: "https://www.fundame.net/" }
       },
       {
         eventId: "bingo-miercoles",
@@ -121,7 +125,9 @@ const days = [
         description: "Al descanso, Carrera de la sangría; al finalizar, ELECTROGARITO.",
         note: "Noche de disfraces: Tercera edad",
         icon: "🎸",
-        detail: "Noche de verbena con la Orquesta MEDIA LUNA, música para bailar y repertorio para todos los públicos. Durante el descanso se celebrará la Carrera de la sangría y, al terminar la orquesta, continuará la fiesta con ELECTROGARITO. La jornada incluye noche de disfraces para la tercera edad: una buena ocasión para participar, animar y disfrutar del ambiente."
+        detail: "Noche de verbena con la Orquesta MEDIA LUNA, música para bailar y repertorio para todos los públicos. Durante el descanso se celebrará la Carrera de la sangría y, al terminar la orquesta, continuará la fiesta con ELECTROGARITO. La jornada incluye noche de disfraces para la tercera edad: una buena ocasión para participar, animar y disfrutar del ambiente.",
+        featured: true,
+        link: { label: "MEDIA LUNA en Instagram", url: "https://www.instagram.com/orquesta_medialuna/?hl=es" }
       }
     ]
   },
@@ -152,7 +158,9 @@ const days = [
         time: "01:00",
         title: "ELECTROMOON",
         icon: "🌙",
-        detail: "Sesión nocturna de música electrónica y baile para seguir disfrutando de la madrugada de fiestas. ELECTROMOON pondrá el ritmo con una selección pensada para animar la pista y cerrar el día con energía. Respeta el descanso de los vecinos, cuida el espacio común y disfruta de forma responsable."
+        detail: "Sesión nocturna de música electrónica y baile para seguir disfrutando de la madrugada de fiestas. ELECTROMOON pondrá el ritmo con una selección pensada para animar la pista y cerrar el día con energía. Respeta el descanso de los vecinos, cuida el espacio común y disfruta de forma responsable.",
+        featured: true,
+        link: { label: "ELECTROMOON en Instagram", url: "https://www.instagram.com/electromoonn9/?hl=es" }
       }
     ]
   },
@@ -210,7 +218,9 @@ const days = [
         title: "Grupo SYN3RGIA",
         description: "En el descanso y al finalizar: ELECTROGARITO con DJ DAMM VALLEY.",
         icon: "🎤",
-        detail: "Concierto y fiesta nocturna con el Grupo SYN3RGIA como protagonista. Durante el descanso y al finalizar continuará la música con ELECTROGARITO y DJ DAMM VALLEY. Una cita para cantar, bailar y disfrutar de la noche grande del programa, siempre cuidando el entorno y compartiendo el espacio con respeto."
+        detail: "Concierto y fiesta nocturna con el Grupo SYN3RGIA como protagonista. Durante el descanso y al finalizar continuará la música con ELECTROGARITO y DJ DAMM VALLEY. Una cita para cantar, bailar y disfrutar de la noche grande del programa, siempre cuidando el entorno y compartiendo el espacio con respeto.",
+        featured: true,
+        link: { label: "SYN3RGIA en Instagram", url: "https://www.instagram.com/syn3rgiagrupo/?hl=es" }
       }
     ]
   },
@@ -341,9 +351,21 @@ function attendMarkup(event) {
   `;
 }
 
-function card(event, color, id) {
+function linkMarkup(event) {
+  if (!event.link) return "";
   return `
-    <article class="event-card" style="--accent: var(--${color})">
+    <a class="event-link" href="${event.link.url}" target="_blank" rel="noopener noreferrer">
+      <span class="event-link-icon" aria-hidden="true">🔗</span>
+      <span>${event.link.label}</span>
+      <span class="event-link-arrow" aria-hidden="true">↗</span>
+    </a>
+  `;
+}
+
+function card(event, color, id) {
+  const featuredClass = event.featured ? "event-card--featured" : "";
+  return `
+    <article class="event-card ${featuredClass}" style="--accent: var(--${color})">
       <button class="event-summary" type="button" data-event="${id}" aria-expanded="false" aria-controls="details-${id}">
         <time class="event-time">${event.time}</time>
         <span class="event-heading">
@@ -359,6 +381,7 @@ function card(event, color, id) {
           ${visualMarkup(event, color)}
           <div class="event-description">
             <p>${event.detail}</p>
+            ${linkMarkup(event)}
             ${attendMarkup(event)}
           </div>
         </div>
