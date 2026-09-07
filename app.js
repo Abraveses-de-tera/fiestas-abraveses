@@ -33,6 +33,7 @@ const days = [
         time: "22:30",
         title: "Desfile infantil de disfraces",
         icon: "🎭",
+        photo: "images/disfraz.jpg",
         detail: "Los más pequeños serán protagonistas de una noche llena de imaginación. Anímate a preparar un disfraz individual, en familia o con amigos y participa en el recorrido por las calles del pueblo. Habrá música, ambiente festivo y tiempo para que cada participante luzca su creación. Se recomienda que los menores vayan acompañados por una persona adulta."
       },
       {
@@ -91,7 +92,7 @@ const days = [
       },
       {
         time: "19:00",
-        title: "I Grand Prix Bragao",
+        title: "I Grand Prix Braga",
         note: "Mayores de 16 años",
         icon: "🏁",
         detail: "Prueba festiva de equipos con retos, habilidad, equilibrio y muchas risas. El Grand Prix está pensado para participantes mayores de 16 años que quieran colaborar con su peña o grupo de amigos. Consulta la normativa, los equipos disponibles y las medidas de seguridad antes de participar."
@@ -107,7 +108,7 @@ const days = [
         title: "Orquesta MEDIA LUNA",
         description: "Al descanso, Carrera de la sangría; al finalizar, ELECTROGARITO.",
         note: "Noche de disfraces: Tercera edad",
-        photo: "images/disfraz.jpg",
+        icon: "🎸",
         detail: "Noche de verbena con la Orquesta MEDIA LUNA, música para bailar y repertorio para todos los públicos. Durante el descanso se celebrará la Carrera de la sangría y, al terminar la orquesta, continuará la fiesta con ELECTROGARITO. La jornada incluye noche de disfraces para la tercera edad: una buena ocasión para participar, animar y disfrutar del ambiente."
       }
     ]
@@ -120,7 +121,7 @@ const days = [
     events: [
       {
         time: "18:30",
-        title: "Bendición de bollas",
+        title: "Bendición de bolas",
         icon: "🕯️",
         photo: "images/bendicion-bolas.jpg",
         detail: "Acto tradicional incluido en el programa festivo. Se recomienda acudir con unos minutos de antelación, mantener un ambiente respetuoso y seguir las indicaciones que se den en el lugar de celebración. Los detalles prácticos, punto de encuentro y posible participación se podrán comunicar por los canales de la organización."
