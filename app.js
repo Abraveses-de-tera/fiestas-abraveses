@@ -26,6 +26,7 @@ const days = [
         description: "Con la charanga MANÁITA.",
         note: "Inscripción previa",
         icon: "🍷",
+        photo: "images/ruta-bodegas.jpg",
         detail: "Recorrido festivo por las bodegas de Abraveses de Tera acompañado por la charanga MANÁITA. La propuesta combina música, convivencia y una forma diferente de descubrir los rincones con más historia del pueblo. Lleva calzado cómodo, respeta las indicaciones de la organización y consulta previamente el punto de salida y las condiciones de inscripción."
       },
       {
@@ -52,6 +53,7 @@ const days = [
         time: "18:30",
         title: "Marcha solidaria FUNDAME",
         icon: "🚶",
+        photo: "images/marcha-solidaria.jpg",
         detail: "Una caminata solidaria abierta a toda persona que quiera colaborar y sumar pasos por una buena causa. El ritmo estará pensado para que puedan participar familias, grupos de amigos y vecinos de distintas edades. Consulta con la organización el recorrido, el punto de encuentro y cualquier aportación solidaria prevista antes de comenzar."
       },
       {
@@ -120,12 +122,14 @@ const days = [
         time: "18:30",
         title: "Bendición de bolas",
         icon: "🕯️",
+        photo: "images/bendicion-bolas.jpg",
         detail: "Acto tradicional incluido en el programa festivo. Se recomienda acudir con unos minutos de antelación, mantener un ambiente respetuoso y seguir las indicaciones que se den en el lugar de celebración. Los detalles prácticos, punto de encuentro y posible participación se podrán comunicar por los canales de la organización."
       },
       {
         time: "21:00",
         title: "Cagada de la gallina",
         icon: "🐔",
+        photo: "images/cagada-gallina.jpg",
         detail: "Uno de los juegos más divertidos y comentados de las fiestas. Los participantes eligen su casilla y esperan a que la suerte decida el resultado, siempre en un ambiente de humor y convivencia. Consulta en el lugar de la actividad cómo participar, los horarios de venta y las normas del juego."
       },
       {
@@ -197,6 +201,7 @@ const days = [
         time: "13:00",
         title: "Romería de pendones",
         icon: "🚩",
+        photo: "images/romeria-pendones.jpg",
         detail: "Desfile tradicional de pendones que reúne color, música y patrimonio popular. Es una oportunidad para contemplar de cerca estas enseñas y acompañar el recorrido en un ambiente comunitario. Respeta el espacio de las personas que portan los pendones y sigue las indicaciones de la organización durante el trayecto."
       },
       {
@@ -240,6 +245,13 @@ function renderTabs() {
   dayTabs.innerHTML = all + buttons;
 }
 
+function visualMarkup(event, color) {
+  if (event.photo) {
+    return `<img class="event-visual-photo" src="${event.photo}" alt="${event.title}" loading="lazy" />`;
+  }
+  return `<div class="event-visual" style="--accent: var(--${color})" aria-hidden="true">${event.icon}</div>`;
+}
+
 function card(event, color, id) {
   return `
     <article class="event-card" style="--accent: var(--${color})">
@@ -255,7 +267,7 @@ function card(event, color, id) {
 
       <div class="event-details" id="details-${id}">
         <div class="event-details-inner">
-          <div class="event-visual" aria-hidden="true">${event.icon}</div>
+          ${visualMarkup(event, color)}
           <div class="event-description">
             <p>${event.detail}</p>
           </div>
