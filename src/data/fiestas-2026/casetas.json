@@ -5764,7 +5764,8 @@
               {
                 "id": "racion-patatas",
                 "name": "Patatas",
-                "price": "6"
+                "price": "6",
+                "dietary": "vegetarian"
               },
               {
                 "id": "racion-buffalo",
@@ -5780,7 +5781,8 @@
               {
                 "id": "postre-tarta-queso",
                 "name": "Tarta de queso",
-                "price": "5"
+                "price": "5",
+                "dietary": "vegetarian"
               }
             ]
           },
