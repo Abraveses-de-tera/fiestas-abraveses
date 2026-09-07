@@ -1,21 +1,3 @@
-Entendido. No vamos a esperar más a la tarjeta: el sistema no está mostrando el permiso aunque lo hemos intentado varias veces.
-
-La web ya está publicada y funcionando. Para añadir los desplegables, descripciones e ilustraciones puedes hacerlo directamente desde GitHub en unos minutos; no necesitas crear ramas ni instalar nada.
-
-Entra al archivo correcto
-Abre esta rama directamente en GitHub:
-Rama gh-pages del repositorio
-
-Haz clic en el archivo:
-
-text
-app.js
-Pulsa el icono del lápiz, arriba a la derecha: Edit this file.
-
-Selecciona todo el contenido, bórralo y pega el siguiente código completo.
-
-Código para app.js
-js
 const days = [
   {
     id: "24",
