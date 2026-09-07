@@ -261,6 +261,8 @@ let selectedId = "all";
 
 const STORAGE_KEY = "abravesesAsistencias";
 let attendCounts = {};
+let authReady = false;
+let authReadyPromise = null;
 
 function getConfirmed() {
   try {
@@ -276,6 +278,34 @@ function setConfirmed(map) {
 
 function hasFirebase() {
   return typeof firebase !== "undefined" && firebase.apps && firebase.apps.length > 0;
+}
+
+function ensureAuth() {
+  if (!hasFirebase() || typeof firebase.auth !== "function") {
+    return Promise.reject(new Error("Firebase Auth no disponible."));
+  }
+  if (authReady && firebase.auth().currentUser) {
+    return Promise.resolve(firebase.auth().currentUser);
+  }
+  if (authReadyPromise) {
+    return authReadyPromise;
+  }
+  authReadyPromise = new Promise((resolve, reject) => {
+    const unsubscribe = firebase.auth().onAuthStateChanged((user) => {
+      if (user) {
+        authReady = true;
+        unsubscribe();
+        resolve(user);
+      }
+    });
+    firebase.auth().signInAnonymously().catch((error) => {
+      unsubscribe();
+      authReadyPromise = null;
+      console.error("No se pudo iniciar sesión anónima.", error);
+      reject(error);
+    });
+  });
+  return authReadyPromise;
 }
 
 function renderTabs() {
@@ -385,21 +415,30 @@ eventList.addEventListener("click", (event) => {
 
 function toggleAttendance(eventId, button) {
   if (!hasFirebase()) return;
-  const confirmedMap = getConfirmed();
-  const alreadyGoing = confirmedMap[eventId] === true;
-  const ref = firebase.database().ref(`asistentes/${eventId}`);
+  button.disabled = true;
 
-  ref.transaction((current) => {
-    const value = typeof current === "number" ? current : 0;
-    return alreadyGoing ? Math.max(0, value - 1) : value + 1;
-  }).then(() => {
-    confirmedMap[eventId] = !alreadyGoing;
-    setConfirmed(confirmedMap);
-    button.classList.toggle("is-going", !alreadyGoing);
-    button.textContent = !alreadyGoing ? "Ya voy ✓" : "Asistir";
-  }).catch((error) => {
-    console.error("No se pudo actualizar la asistencia.", error);
-  });
+  ensureAuth()
+    .then(() => {
+      const confirmedMap = getConfirmed();
+      const alreadyGoing = confirmedMap[eventId] === true;
+      const ref = firebase.database().ref(`asistentes/${eventId}`);
+
+      return ref.transaction((current) => {
+        const value = typeof current === "number" ? current : 0;
+        return alreadyGoing ? Math.max(0, value - 1) : value + 1;
+      }).then(() => {
+        confirmedMap[eventId] = !alreadyGoing;
+        setConfirmed(confirmedMap);
+        button.classList.toggle("is-going", !alreadyGoing);
+        button.textContent = !alreadyGoing ? "Ya voy ✓" : "Asistir";
+      });
+    })
+    .catch((error) => {
+      console.error("No se pudo actualizar la asistencia.", error);
+    })
+    .finally(() => {
+      button.disabled = false;
+    });
 }
 
 function listenAttendanceCounts() {
@@ -417,3 +456,4 @@ function listenAttendanceCounts() {
 renderTabs();
 renderEvents();
 listenAttendanceCounts();
+ensureAuth().catch(() => {});
